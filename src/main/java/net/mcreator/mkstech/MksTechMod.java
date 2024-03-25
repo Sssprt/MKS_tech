@@ -26,6 +26,9 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.mkstech.init.MksTechModTabs;
+import net.mcreator.mkstech.init.MksTechModItems;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -39,8 +42,10 @@ public class MksTechMod {
 	private static int messageID = 0;
 
 	public MksTechMod() {
-
+		MksTechModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		MksTechModItems.REGISTRY.register(bus);
 
 	}
 
