@@ -1,0 +1,48 @@
+{
+  "_fv": 39,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 150,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "smartphonegui.png",
+          "use1Xscale": false,
+          "x": 138,
+          "y": 20
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_microfrog",
+          "text": "microfrog",
+          "onClick": {
+            "name": "Phoneguiytvideomicrofrogopenchat"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 162,
+          "y": 44
+        }
+      }
+    ],
+    "onOpen": {
+      "name": "PhoneguiPriOtkrytiiGUI"
+    },
+    "gridSettings": {
+      "sx": 8,
+      "sy": 8,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

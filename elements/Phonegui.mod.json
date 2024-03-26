@@ -7,18 +7,70 @@
     "height": 200,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
-    "renderBgLayer": true,
+    "renderBgLayer": false,
     "doesPauseGame": false,
-    "components": [],
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "smartphonegui.png",
+          "use1Xscale": false,
+          "x": 138,
+          "y": 20
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_phonegui_znachieniie",
+          "text": {
+            "fixedValue": "",
+            "name": "PhoneguiZnachieniie"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 238,
+          "y": 24
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_appiconyt",
+          "image": "app-icon-yt.png",
+          "hoveredImage": "app-icon-yt_hover.png",
+          "onClick": {
+            "name": "PhoneguiYTopenscript"
+          },
+          "x": 162,
+          "y": 40
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_appiconmessenger",
+          "image": "app-icon-messenger.png",
+          "hoveredImage": "app-icon-messenger_hover.png",
+          "onClick": {
+            "name": "Phoneguimessengerappopenscript"
+          },
+          "x": 198,
+          "y": 40
+        }
+      }
+    ],
     "onOpen": {
       "name": "PhoneguiPriOtkrytiiGUI"
     },
     "gridSettings": {
-      "sx": 18,
-      "sy": 18,
+      "sx": 8,
+      "sy": 8,
       "ox": 11,
       "oy": 15,
-      "snapOnGrid": false
+      "snapOnGrid": true
     }
   }
 }

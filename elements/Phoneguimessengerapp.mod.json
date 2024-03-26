@@ -1,0 +1,59 @@
+{
+  "_fv": 39,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 200,
+    "height": 150,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "smartphoneguirotated.png",
+          "use1Xscale": false,
+          "x": 114,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_open_chat_to_chat",
+          "text": "Open chat to chat",
+          "onClick": {
+            "name": "Phonefunctionopenchat2chat"
+          },
+          "width": 113,
+          "height": 20,
+          "x": 182,
+          "y": 84
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "chat2chat_placeholder",
+          "width": 120,
+          "height": 20,
+          "x": 178,
+          "y": 152
+        }
+      }
+    ],
+    "onOpen": {
+      "name": "PhoneguiPriOtkrytiiGUI"
+    },
+    "gridSettings": {
+      "sx": 8,
+      "sy": 8,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

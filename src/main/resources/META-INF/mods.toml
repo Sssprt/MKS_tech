@@ -6,9 +6,13 @@ license="Academic Free License v3.0"
 modId="mks_tech"
 version="1.0.0"
 displayName="MKS tech"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
-authors="U, MCreator"
+credits="Mod created by Ssprt_ and created using mod maker MCreator"
+displayURL="http://ssprtcomm.tilda.ws"
+logoFile="logo.png"
+authors="Ssprt_, MCreator"
+description='''
+MKS tech this is a mod that adds electronics to our favorite Minecraft, some of them have functionality
+'''
 
 [[dependencies.mks_tech]]
     modId="minecraft"

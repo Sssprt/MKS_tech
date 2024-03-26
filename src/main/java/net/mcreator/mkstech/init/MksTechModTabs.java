@@ -17,7 +17,7 @@ public class MksTechModTabs {
 		TAB_MKS_TECH = new CreativeModeTab("tabmks_tech") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(MksTechModItems.SMARTPHONECLASSICOFF.get());
+				return new ItemStack(MksTechModItems.SMARTPHONECLASSICON.get());
 			}
 
 			@OnlyIn(Dist.CLIENT)

@@ -1,0 +1,7 @@
+{
+  "parent": "mks_tech:custom/laptop_gaming_open",
+  "textures": {
+    "0": "mks_tech:blocks/laptop_gaming",
+    "particle": "mks_tech:items/laptop_gaming"
+  }
+}

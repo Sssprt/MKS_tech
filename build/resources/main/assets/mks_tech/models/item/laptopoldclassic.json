@@ -1,0 +1,7 @@
+{
+  "parent": "mks_tech:custom/laptop",
+  "textures": {
+    "0": "mks_tech:blocks/laptop_texture",
+    "particle": "mks_tech:items/laptop_texture"
+  }
+}

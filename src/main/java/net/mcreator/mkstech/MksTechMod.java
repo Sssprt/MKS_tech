@@ -28,6 +28,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.mkstech.init.MksTechModTabs;
 import net.mcreator.mkstech.init.MksTechModItems;
+import net.mcreator.mkstech.init.MksTechModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -44,7 +45,7 @@ public class MksTechMod {
 	public MksTechMod() {
 		MksTechModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		MksTechModBlocks.REGISTRY.register(bus);
 		MksTechModItems.REGISTRY.register(bus);
 
 	}

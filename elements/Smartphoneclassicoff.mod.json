@@ -8,7 +8,7 @@
     "name": "Smartphone",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:MKSTech"
+      "value": "No creative tab entry"
     },
     "stackSize": 1,
     "enchantability": 0,
@@ -19,18 +19,21 @@
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "Model: classic"
+      "Model: Classic"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "SmartphoneclassicoffPriNazhatiiPravoiKnopkoiMyshi"
+    },
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,
