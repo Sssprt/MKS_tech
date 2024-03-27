@@ -1,0 +1,213 @@
+{
+  "_fv": 39,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 150,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "smartphonegui.png",
+          "use1Xscale": false,
+          "x": 138,
+          "y": 20
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_home_button",
+          "image": "home_button.png",
+          "hoveredImage": "home_button_hover.png",
+          "onClick": {
+            "name": "Phonehomebuttonscript"
+          },
+          "x": 202,
+          "y": 208
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_choose_music",
+          "text": {
+            "fixedValue": "Choose music"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 206,
+          "y": 40
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_pigstep",
+          "text": "Pigstep",
+          "onClick": {
+            "name": "Appmusicplaypigsteplenareyne"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 158,
+          "y": 100
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_stop",
+          "text": "stop",
+          "onClick": {
+            "name": "Appmusicstopall"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 158,
+          "y": 36
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_strad",
+          "text": "Strad",
+          "onClick": {
+            "name": "Appmusicplaystradc418"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 198,
+          "y": 60
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_wait",
+          "text": "Wait",
+          "onClick": {
+            "name": "Appmusicplaywaitc418"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 214,
+          "y": 80
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_cat",
+          "text": "Cat",
+          "onClick": {
+            "name": "Appmusicplaycatc418"
+          },
+          "width": 40,
+          "height": 20,
+          "x": 158,
+          "y": 60
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_blocks",
+          "text": "Blocks",
+          "onClick": {
+            "name": "Appmusicplayblocksc418"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 158,
+          "y": 80
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_mall",
+          "text": "Mall",
+          "onClick": {
+            "name": "Appmusicplaywallc418"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 218,
+          "y": 100
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_far",
+          "text": "Far",
+          "onClick": {
+            "name": "Appmusicplayfarc418"
+          },
+          "width": 40,
+          "height": 20,
+          "x": 158,
+          "y": 120
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_stal",
+          "text": "Stal",
+          "onClick": {
+            "name": "Appmusicplaystalc418"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 198,
+          "y": 120
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_13",
+          "text": "13",
+          "onClick": {
+            "name": "Appmusicplay13c418"
+          },
+          "width": 35,
+          "height": 20,
+          "x": 158,
+          "y": 140
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_11",
+          "text": "11",
+          "onClick": {
+            "name": "Appmusicplay11c418"
+          },
+          "width": 35,
+          "height": 20,
+          "x": 194,
+          "y": 140
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 8,
+      "sy": 8,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

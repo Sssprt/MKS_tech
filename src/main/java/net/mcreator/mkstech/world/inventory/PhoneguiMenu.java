@@ -12,7 +12,6 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.mkstech.procedures.PhoneguiPriOtkrytiiGUIProcedure;
 import net.mcreator.mkstech.init.MksTechModMenus;
 
 import java.util.function.Supplier;
@@ -40,8 +39,6 @@ public class PhoneguiMenu extends AbstractContainerMenu implements Supplier<Map<
 			this.y = pos.getY();
 			this.z = pos.getZ();
 		}
-
-		PhoneguiPriOtkrytiiGUIProcedure.execute(world, x, y, z);
 	}
 
 	@Override

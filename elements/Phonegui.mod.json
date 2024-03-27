@@ -60,11 +60,47 @@
           "x": 198,
           "y": 40
         }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_appiconweather",
+          "image": "app-icon-weather.png",
+          "hoveredImage": "app-icon-weather_hover.png",
+          "onClick": {
+            "name": "Phoneguiopenappweatherscript"
+          },
+          "x": 234,
+          "y": 40
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_home_button",
+          "image": "home_button.png",
+          "hoveredImage": "home_button_hover.png",
+          "onClick": {
+            "name": "Phoneoffhomebutton"
+          },
+          "x": 202,
+          "y": 208
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_appiconmusic",
+          "image": "app-icon-music.png",
+          "hoveredImage": "app-icon-music_hover.png",
+          "onClick": {
+            "name": "Phoneguiappmusicopenscript"
+          },
+          "x": 162,
+          "y": 76
+        }
       }
     ],
-    "onOpen": {
-      "name": "PhoneguiPriOtkrytiiGUI"
-    },
     "gridSettings": {
       "sx": 8,
       "sy": 8,

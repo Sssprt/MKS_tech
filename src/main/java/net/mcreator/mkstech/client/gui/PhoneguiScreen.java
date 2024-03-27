@@ -27,6 +27,9 @@ public class PhoneguiScreen extends AbstractContainerScreen<PhoneguiMenu> {
 	private final Player entity;
 	ImageButton imagebutton_appiconyt;
 	ImageButton imagebutton_appiconmessenger;
+	ImageButton imagebutton_appiconweather;
+	ImageButton imagebutton_home_button;
+	ImageButton imagebutton_appiconmusic;
 
 	public PhoneguiScreen(PhoneguiMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -105,5 +108,29 @@ public class PhoneguiScreen extends AbstractContainerScreen<PhoneguiMenu> {
 		});
 		guistate.put("button:imagebutton_appiconmessenger", imagebutton_appiconmessenger);
 		this.addRenderableWidget(imagebutton_appiconmessenger);
+		imagebutton_appiconweather = new ImageButton(this.leftPos + 95, this.topPos + 20, 32, 32, 0, 0, 32, new ResourceLocation("mks_tech:textures/screens/atlas/imagebutton_appiconweather.png"), 32, 64, e -> {
+			if (true) {
+				MksTechMod.PACKET_HANDLER.sendToServer(new PhoneguiButtonMessage(2, x, y, z));
+				PhoneguiButtonMessage.handleButtonAction(entity, 2, x, y, z);
+			}
+		});
+		guistate.put("button:imagebutton_appiconweather", imagebutton_appiconweather);
+		this.addRenderableWidget(imagebutton_appiconweather);
+		imagebutton_home_button = new ImageButton(this.leftPos + 63, this.topPos + 188, 26, 10, 0, 0, 10, new ResourceLocation("mks_tech:textures/screens/atlas/imagebutton_home_button.png"), 26, 20, e -> {
+			if (true) {
+				MksTechMod.PACKET_HANDLER.sendToServer(new PhoneguiButtonMessage(3, x, y, z));
+				PhoneguiButtonMessage.handleButtonAction(entity, 3, x, y, z);
+			}
+		});
+		guistate.put("button:imagebutton_home_button", imagebutton_home_button);
+		this.addRenderableWidget(imagebutton_home_button);
+		imagebutton_appiconmusic = new ImageButton(this.leftPos + 23, this.topPos + 56, 32, 32, 0, 0, 32, new ResourceLocation("mks_tech:textures/screens/atlas/imagebutton_appiconmusic.png"), 32, 64, e -> {
+			if (true) {
+				MksTechMod.PACKET_HANDLER.sendToServer(new PhoneguiButtonMessage(4, x, y, z));
+				PhoneguiButtonMessage.handleButtonAction(entity, 4, x, y, z);
+			}
+		});
+		guistate.put("button:imagebutton_appiconmusic", imagebutton_appiconmusic);
+		this.addRenderableWidget(imagebutton_appiconmusic);
 	}
 }

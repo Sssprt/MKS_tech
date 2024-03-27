@@ -32,11 +32,21 @@
           "x": 162,
           "y": 44
         }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_home_button",
+          "image": "home_button.png",
+          "hoveredImage": "home_button_hover.png",
+          "onClick": {
+            "name": "Phonehomebuttonscript"
+          },
+          "x": 202,
+          "y": 208
+        }
       }
     ],
-    "onOpen": {
-      "name": "PhoneguiPriOtkrytiiGUI"
-    },
     "gridSettings": {
       "sx": 8,
       "sy": 8,

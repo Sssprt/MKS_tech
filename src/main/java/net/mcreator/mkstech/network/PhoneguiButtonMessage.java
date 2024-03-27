@@ -12,7 +12,10 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.mkstech.world.inventory.PhoneguiMenu;
+import net.mcreator.mkstech.procedures.PhoneoffhomebuttonProcedure;
+import net.mcreator.mkstech.procedures.PhoneguiopenappweatherscriptProcedure;
 import net.mcreator.mkstech.procedures.PhoneguimessengerappopenscriptProcedure;
+import net.mcreator.mkstech.procedures.PhoneguiappmusicopenscriptProcedure;
 import net.mcreator.mkstech.procedures.PhoneguiYTopenscriptProcedure;
 import net.mcreator.mkstech.MksTechMod;
 
@@ -70,6 +73,18 @@ public class PhoneguiButtonMessage {
 		if (buttonID == 1) {
 
 			PhoneguimessengerappopenscriptProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 2) {
+
+			PhoneguiopenappweatherscriptProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 3) {
+
+			PhoneoffhomebuttonProcedure.execute(entity);
+		}
+		if (buttonID == 4) {
+
+			PhoneguiappmusicopenscriptProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

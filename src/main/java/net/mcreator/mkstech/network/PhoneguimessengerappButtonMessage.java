@@ -12,6 +12,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.mkstech.world.inventory.PhoneguimessengerappMenu;
+import net.mcreator.mkstech.procedures.PhonehomebuttonscriptProcedure;
 import net.mcreator.mkstech.procedures.Phonefunctionopenchat2chatProcedure;
 import net.mcreator.mkstech.MksTechMod;
 
@@ -65,6 +66,10 @@ public class PhoneguimessengerappButtonMessage {
 		if (buttonID == 0) {
 
 			Phonefunctionopenchat2chatProcedure.execute(entity);
+		}
+		if (buttonID == 1) {
+
+			PhonehomebuttonscriptProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

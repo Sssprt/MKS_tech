@@ -12,6 +12,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.mkstech.world.inventory.PhoneguiYTMenu;
+import net.mcreator.mkstech.procedures.PhonehomebuttonscriptProcedure;
 import net.mcreator.mkstech.procedures.PhoneguiytvideomicrofrogopenchatProcedure;
 import net.mcreator.mkstech.MksTechMod;
 
@@ -65,6 +66,10 @@ public class PhoneguiYTButtonMessage {
 		if (buttonID == 0) {
 
 			PhoneguiytvideomicrofrogopenchatProcedure.execute(entity);
+		}
+		if (buttonID == 1) {
+
+			PhonehomebuttonscriptProcedure.execute(world, x, y, z, entity);
 		}
 	}
 
