@@ -76,37 +76,6 @@
       }
     },
     {
-      "name": "PhoneguiPriOtkrytiiGUI",
-      "type": "procedure",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "phonegui_pri_otkrytii_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mkstech/procedures/PhoneguiPriOtkrytiiGUIProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "PhoneguiZnachieniie",
       "type": "procedure",
       "sortid": 8,
@@ -751,6 +720,254 @@
           }
         ]
       }
+    },
+    {
+      "name": "Appmusicplaywaitc418",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "appmusicplaywaitc_418",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/Appmusicplaywaitc418Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Appmusicplaystradc418",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "appmusicplaystradc_418",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/Appmusicplaystradc418Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Appmusicplaywallc418",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "appmusicplaywallc_418",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/Appmusicplaywallc418Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Appmusicplaycrispc418",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "appmusicplaycrispc_418",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/Appmusicplaycrispc418Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Appmusicplayfarc418",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "appmusicplayfarc_418",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/Appmusicplayfarc418Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Appmusicplaystalc418",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "appmusicplaystalc_418",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/Appmusicplaystalc418Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Appmusicplay13c418",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "appmusicplay_13c_418",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/Appmusicplay13c418Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Appmusicplay11c418",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "appmusicplay_11c_418",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/Appmusicplay11c418Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -762,26 +979,36 @@
       "item.mks_tech.laptopoldclassic": "Ноутбук Старый",
       "item.mks_tech.laptop_gaming": "Игровой ноутбук",
       "gui.mks_tech.phonegui_yt.button_microfrog": "microfrog",
-      "gui.mks_tech.phoneguimusic.label_set_weather": "Set weather",
-      "item.mks_tech.smartphoneclassicon": "Смартфон",
       "gui.mks_tech.phonegui.testtextinterpole": "test text inter",
+      "item.mks_tech.smartphoneclassicon": "Смартфон",
+      "gui.mks_tech.phoneguimusic.label_set_weather": "Уст. погоду",
       "gui.mks_tech.phoneguimessengerapp.message_title_test_pole": "",
+      "gui.mks_tech.phoneguimusic.button_strad": "Strad",
       "gui.mks_tech.phoneguimusic.button_blocks_c418": "Blocks - C418",
-      "gui.mks_tech.phoneguimusic.button_stop": "stop",
+      "gui.mks_tech.phoneguimusic.button_far": "Far",
+      "gui.mks_tech.phoneguimusic.button_cat": "Cat",
+      "gui.mks_tech.phoneguimusic.button_blocks": "Blocks",
+      "gui.mks_tech.phoneguimusic.button_stop": "ост.",
       "gui.mks_tech.phonegui.test_checkbox": "test checkbox",
       "gui.mks_tech.phoneguimessengerapp.chat2chat_placeholder": "",
+      "gui.mks_tech.phoneguimusic.button_wait": "Wait",
+      "gui.mks_tech.phoneguimusic.button_stal": "Stal",
+      "gui.mks_tech.phoneguimusic.button_11": "11",
+      "gui.mks_tech.phoneguimusic.button_5": "5",
       "advancements.wowsmartphone.title": "Вау, смартфон",
+      "gui.mks_tech.phoneguimusic.button_13": "13",
       "block.mks_tech.laptop_gaming_block_object": "Laptop Gaming Block Object",
       "gui.mks_tech.phoneguimusic.button_pigstep": "Pigstep",
       "item.mks_tech.smartphoneclassicoff": "Смартфон",
       "advancements.wowsmartphone.descr": "Купить смартфон",
-      "gui.mks_tech.phoneguimusic.label_choose_music": "Choose music",
-      "gui.mks_tech.phoneguimusic.button_clear": "Clear",
-      "gui.mks_tech.phoneguiweather.button_clear": "Clear",
+      "gui.mks_tech.phoneguimusic.label_choose_music": "Выбрать музыку",
+      "gui.mks_tech.phoneguimusic.button_clear": "Ясно",
+      "gui.mks_tech.phoneguiweather.button_clear": "Ясно",
       "gui.mks_tech.phoneguimusic.button_cat_c418": "Cat - C418",
+      "gui.mks_tech.phoneguimusic.button_mall": "Mall",
       "itemGroup.tabmks_tech": "MKS Tech",
       "gui.mks_tech.phoneguimessengerapp.button_open_chat_to_chat": "Open chat to chat",
-      "gui.mks_tech.phoneguiweather.button_clear1": "Rain"
+      "gui.mks_tech.phoneguiweather.button_clear1": "Дождь"
     },
     "en_us": {
       "gui.mks_tech.phoneguiweather.label_set_weather": "Set weather",
@@ -789,15 +1016,24 @@
       "item.mks_tech.laptopoldclassic": "Laptop old",
       "item.mks_tech.laptop_gaming": "Laptop Gaming",
       "gui.mks_tech.phonegui_yt.button_microfrog": "microfrog",
-      "gui.mks_tech.phonegui.testtextinterpole": "test text inter",
-      "item.mks_tech.smartphoneclassicon": "Smartphone",
       "gui.mks_tech.phoneguimusic.label_set_weather": "Set weather",
+      "item.mks_tech.smartphoneclassicon": "Smartphone",
+      "gui.mks_tech.phonegui.testtextinterpole": "test text inter",
       "gui.mks_tech.phoneguimessengerapp.message_title_test_pole": "",
+      "gui.mks_tech.phoneguimusic.button_strad": "Strad",
       "gui.mks_tech.phoneguimusic.button_blocks_c418": "Blocks - C418",
+      "gui.mks_tech.phoneguimusic.button_far": "Far",
+      "gui.mks_tech.phoneguimusic.button_cat": "Cat",
+      "gui.mks_tech.phoneguimusic.button_blocks": "Blocks",
       "gui.mks_tech.phoneguimusic.button_stop": "stop",
       "gui.mks_tech.phonegui.test_checkbox": "test checkbox",
       "gui.mks_tech.phoneguimessengerapp.chat2chat_placeholder": "",
+      "gui.mks_tech.phoneguimusic.button_wait": "Wait",
+      "gui.mks_tech.phoneguimusic.button_stal": "Stal",
+      "gui.mks_tech.phoneguimusic.button_11": "11",
+      "gui.mks_tech.phoneguimusic.button_5": "5",
       "advancements.wowsmartphone.title": "Wow smartphone",
+      "gui.mks_tech.phoneguimusic.button_13": "13",
       "block.mks_tech.laptop_gaming_block_object": "Laptop Gaming Block Object",
       "gui.mks_tech.phoneguimusic.button_pigstep": "Pigstep",
       "item.mks_tech.smartphoneclassicoff": "Smartphone",
@@ -806,6 +1042,7 @@
       "gui.mks_tech.phoneguimusic.button_clear": "Clear",
       "gui.mks_tech.phoneguiweather.button_clear": "Clear",
       "gui.mks_tech.phoneguimusic.button_cat_c418": "Cat - C418",
+      "gui.mks_tech.phoneguimusic.button_mall": "Mall",
       "itemGroup.tabmks_tech": "MKS Tech",
       "gui.mks_tech.phoneguimessengerapp.button_open_chat_to_chat": "Open chat to chat",
       "gui.mks_tech.phoneguiweather.button_clear1": "Rain"

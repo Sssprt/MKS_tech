@@ -974,8 +974,8 @@
   "sound_elements": [],
   "language_map": {
     "ru_ru": {
-      "gui.mks_tech.phoneguiweather.label_set_weather": "Уст. погоду",
       "gui.mks_tech.phoneguimusic.button_clear1": "Дождь",
+      "gui.mks_tech.phoneguiweather.label_set_weather": "Уст. погоду",
       "item.mks_tech.laptopoldclassic": "Ноутбук Старый",
       "item.mks_tech.laptop_gaming": "Игровой ноутбук",
       "gui.mks_tech.phonegui_yt.button_microfrog": "microfrog",
@@ -1011,8 +1011,8 @@
       "gui.mks_tech.phoneguiweather.button_clear1": "Дождь"
     },
     "en_us": {
-      "gui.mks_tech.phoneguiweather.label_set_weather": "Set weather",
       "gui.mks_tech.phoneguimusic.button_clear1": "Rain",
+      "gui.mks_tech.phoneguiweather.label_set_weather": "Set weather",
       "item.mks_tech.laptopoldclassic": "Laptop old",
       "item.mks_tech.laptop_gaming": "Laptop Gaming",
       "gui.mks_tech.phonegui_yt.button_microfrog": "microfrog",
