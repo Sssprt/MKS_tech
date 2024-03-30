@@ -1,0 +1,7 @@
+{
+  "parent": "mks_tech:custom/headphones",
+  "textures": {
+    "0": "mks_tech:blocks/headphones",
+    "particle": "mks_tech:items/headphones"
+  }
+}

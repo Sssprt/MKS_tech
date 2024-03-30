@@ -1,0 +1,7 @@
+{
+  "parent": "mks_tech:custom/tablet",
+  "textures": {
+    "0": "mks_tech:blocks/tablet",
+    "particle": "mks_tech:items/tablet"
+  }
+}

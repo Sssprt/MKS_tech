@@ -20,22 +20,6 @@
         }
       },
       {
-        "type": "label",
-        "data": {
-          "name": "label_proc_phonegui_znachieniie",
-          "text": {
-            "fixedValue": "",
-            "name": "PhoneguiZnachieniie"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 238,
-          "y": 24
-        }
-      },
-      {
         "type": "imagebutton",
         "data": {
           "name": "imagebutton_appiconyt",
@@ -97,6 +81,32 @@
             "name": "Phoneguiappmusicopenscript"
           },
           "x": 162,
+          "y": 76
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_appiconclock",
+          "image": "app-icon-clock.png",
+          "hoveredImage": "app-icon-clock_hover.png",
+          "onClick": {
+            "name": "Phoneguiopenappclock"
+          },
+          "x": 198,
+          "y": 76
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_appiconset",
+          "image": "app-icon-set.png",
+          "hoveredImage": "app-icon-set_hover.png",
+          "onClick": {
+            "name": "Phoneguiopenappsettings"
+          },
+          "x": 234,
           "y": 76
         }
       }

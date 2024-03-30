@@ -15,6 +15,8 @@ import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.mcreator.mkstech.world.inventory.PhoneguiweatherMenu;
 import net.mcreator.mkstech.world.inventory.PhoneguimusicMenu;
 import net.mcreator.mkstech.world.inventory.PhoneguimessengerappMenu;
+import net.mcreator.mkstech.world.inventory.PhoneguiappsettingsMenu;
+import net.mcreator.mkstech.world.inventory.PhoneguiappclockMenu;
 import net.mcreator.mkstech.world.inventory.PhoneguiYTMenu;
 import net.mcreator.mkstech.world.inventory.PhoneguiMenu;
 
@@ -29,6 +31,8 @@ public class MksTechModMenus {
 	public static final MenuType<PhoneguimessengerappMenu> PHONEGUIMESSENGERAPP = register("phoneguimessengerapp", (id, inv, extraData) -> new PhoneguimessengerappMenu(id, inv, extraData));
 	public static final MenuType<PhoneguiweatherMenu> PHONEGUIWEATHER = register("phoneguiweather", (id, inv, extraData) -> new PhoneguiweatherMenu(id, inv, extraData));
 	public static final MenuType<PhoneguimusicMenu> PHONEGUIMUSIC = register("phoneguimusic", (id, inv, extraData) -> new PhoneguimusicMenu(id, inv, extraData));
+	public static final MenuType<PhoneguiappclockMenu> PHONEGUIAPPCLOCK = register("phoneguiappclock", (id, inv, extraData) -> new PhoneguiappclockMenu(id, inv, extraData));
+	public static final MenuType<PhoneguiappsettingsMenu> PHONEGUIAPPSETTINGS = register("phoneguiappsettings", (id, inv, extraData) -> new PhoneguiappsettingsMenu(id, inv, extraData));
 
 	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {
 		MenuType<T> menuType = new MenuType<T>(containerFactory);

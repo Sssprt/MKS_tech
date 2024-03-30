@@ -65,7 +65,7 @@ public class PhoneguimessengerappButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			Phonefunctionopenchat2chatProcedure.execute(entity);
+			Phonefunctionopenchat2chatProcedure.execute(world, guistate);
 		}
 		if (buttonID == 1) {
 

@@ -28,7 +28,7 @@ public class PhoneguimessengerappScreen extends AbstractContainerScreen<Phonegui
 	private final int x, y, z;
 	private final Player entity;
 	EditBox chat2chat_placeholder;
-	Button button_open_chat_to_chat;
+	Button button_send;
 	ImageButton imagebutton_home_button_rotated;
 
 	public PhoneguimessengerappScreen(PhoneguimessengerappMenu container, Inventory inventory, Component text) {
@@ -93,18 +93,18 @@ public class PhoneguimessengerappScreen extends AbstractContainerScreen<Phonegui
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		chat2chat_placeholder = new EditBox(this.font, this.leftPos + 64, this.topPos + 107, 120, 20, new TranslatableComponent("gui.mks_tech.phoneguimessengerapp.chat2chat_placeholder"));
+		chat2chat_placeholder = new EditBox(this.font, this.leftPos + 20, this.topPos + 107, 120, 20, new TranslatableComponent("gui.mks_tech.phoneguimessengerapp.chat2chat_placeholder"));
 		chat2chat_placeholder.setMaxLength(32767);
 		guistate.put("text:chat2chat_placeholder", chat2chat_placeholder);
 		this.addWidget(this.chat2chat_placeholder);
-		button_open_chat_to_chat = new Button(this.leftPos + 68, this.topPos + 39, 113, 20, new TranslatableComponent("gui.mks_tech.phoneguimessengerapp.button_open_chat_to_chat"), e -> {
+		button_send = new Button(this.leftPos + 140, this.topPos + 107, 46, 20, new TranslatableComponent("gui.mks_tech.phoneguimessengerapp.button_send"), e -> {
 			if (true) {
 				MksTechMod.PACKET_HANDLER.sendToServer(new PhoneguimessengerappButtonMessage(0, x, y, z));
 				PhoneguimessengerappButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		});
-		guistate.put("button:button_open_chat_to_chat", button_open_chat_to_chat);
-		this.addRenderableWidget(button_open_chat_to_chat);
+		guistate.put("button:button_send", button_send);
+		this.addRenderableWidget(button_send);
 		imagebutton_home_button_rotated = new ImageButton(this.leftPos + 188, this.topPos + 59, 10, 26, 0, 0, 26, new ResourceLocation("mks_tech:textures/screens/atlas/imagebutton_home_button_rotated.png"), 10, 52, e -> {
 			if (true) {
 				MksTechMod.PACKET_HANDLER.sendToServer(new PhoneguimessengerappButtonMessage(1, x, y, z));

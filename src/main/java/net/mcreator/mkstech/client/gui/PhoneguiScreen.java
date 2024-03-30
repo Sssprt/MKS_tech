@@ -11,7 +11,6 @@ import net.minecraft.client.gui.components.ImageButton;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.mkstech.world.inventory.PhoneguiMenu;
-import net.mcreator.mkstech.procedures.PhoneguiZnachieniieProcedure;
 import net.mcreator.mkstech.network.PhoneguiButtonMessage;
 import net.mcreator.mkstech.MksTechMod;
 
@@ -30,6 +29,8 @@ public class PhoneguiScreen extends AbstractContainerScreen<PhoneguiMenu> {
 	ImageButton imagebutton_appiconweather;
 	ImageButton imagebutton_home_button;
 	ImageButton imagebutton_appiconmusic;
+	ImageButton imagebutton_appiconclock;
+	ImageButton imagebutton_appiconset;
 
 	public PhoneguiScreen(PhoneguiMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -77,9 +78,6 @@ public class PhoneguiScreen extends AbstractContainerScreen<PhoneguiMenu> {
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack,
-
-				PhoneguiZnachieniieProcedure.execute(world), 99, 4, -12829636);
 	}
 
 	@Override
@@ -132,5 +130,21 @@ public class PhoneguiScreen extends AbstractContainerScreen<PhoneguiMenu> {
 		});
 		guistate.put("button:imagebutton_appiconmusic", imagebutton_appiconmusic);
 		this.addRenderableWidget(imagebutton_appiconmusic);
+		imagebutton_appiconclock = new ImageButton(this.leftPos + 59, this.topPos + 56, 32, 32, 0, 0, 32, new ResourceLocation("mks_tech:textures/screens/atlas/imagebutton_appiconclock.png"), 32, 64, e -> {
+			if (true) {
+				MksTechMod.PACKET_HANDLER.sendToServer(new PhoneguiButtonMessage(5, x, y, z));
+				PhoneguiButtonMessage.handleButtonAction(entity, 5, x, y, z);
+			}
+		});
+		guistate.put("button:imagebutton_appiconclock", imagebutton_appiconclock);
+		this.addRenderableWidget(imagebutton_appiconclock);
+		imagebutton_appiconset = new ImageButton(this.leftPos + 95, this.topPos + 56, 32, 32, 0, 0, 32, new ResourceLocation("mks_tech:textures/screens/atlas/imagebutton_appiconset.png"), 32, 64, e -> {
+			if (true) {
+				MksTechMod.PACKET_HANDLER.sendToServer(new PhoneguiButtonMessage(6, x, y, z));
+				PhoneguiButtonMessage.handleButtonAction(entity, 6, x, y, z);
+			}
+		});
+		guistate.put("button:imagebutton_appiconset", imagebutton_appiconset);
+		this.addRenderableWidget(imagebutton_appiconset);
 	}
 }

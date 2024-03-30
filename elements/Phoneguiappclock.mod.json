@@ -1,0 +1,88 @@
+{
+  "_fv": 39,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 150,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "smartphonegui.png",
+          "use1Xscale": false,
+          "x": 138,
+          "y": 20
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_phonegui_znachieniie",
+          "text": {
+            "fixedValue": "",
+            "name": "PhoneguiZnachieniie"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 190,
+          "y": 36
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_home_button",
+          "image": "home_button.png",
+          "hoveredImage": "home_button_hover.png",
+          "onClick": {
+            "name": "Phonehomebuttonscript"
+          },
+          "x": 202,
+          "y": 208
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_day",
+          "text": "Day",
+          "onClick": {
+            "name": "Appclocktimesetday"
+          },
+          "width": 40,
+          "height": 20,
+          "x": 162,
+          "y": 56
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_night",
+          "text": "Night",
+          "onClick": {
+            "name": "Appclocktimesetfullnight"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 202,
+          "y": 56
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 8,
+      "sy": 8,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

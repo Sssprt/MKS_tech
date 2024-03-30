@@ -14,6 +14,8 @@ import net.minecraft.client.gui.screens.MenuScreens;
 import net.mcreator.mkstech.client.gui.PhoneguiweatherScreen;
 import net.mcreator.mkstech.client.gui.PhoneguimusicScreen;
 import net.mcreator.mkstech.client.gui.PhoneguimessengerappScreen;
+import net.mcreator.mkstech.client.gui.PhoneguiappsettingsScreen;
+import net.mcreator.mkstech.client.gui.PhoneguiappclockScreen;
 import net.mcreator.mkstech.client.gui.PhoneguiYTScreen;
 import net.mcreator.mkstech.client.gui.PhoneguiScreen;
 
@@ -27,6 +29,8 @@ public class MksTechModScreens {
 			MenuScreens.register(MksTechModMenus.PHONEGUIMESSENGERAPP, PhoneguimessengerappScreen::new);
 			MenuScreens.register(MksTechModMenus.PHONEGUIWEATHER, PhoneguiweatherScreen::new);
 			MenuScreens.register(MksTechModMenus.PHONEGUIMUSIC, PhoneguimusicScreen::new);
+			MenuScreens.register(MksTechModMenus.PHONEGUIAPPCLOCK, PhoneguiappclockScreen::new);
+			MenuScreens.register(MksTechModMenus.PHONEGUIAPPSETTINGS, PhoneguiappsettingsScreen::new);
 		});
 	}
 }

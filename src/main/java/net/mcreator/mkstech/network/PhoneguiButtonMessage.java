@@ -14,6 +14,8 @@ import net.minecraft.core.BlockPos;
 import net.mcreator.mkstech.world.inventory.PhoneguiMenu;
 import net.mcreator.mkstech.procedures.PhoneoffhomebuttonProcedure;
 import net.mcreator.mkstech.procedures.PhoneguiopenappweatherscriptProcedure;
+import net.mcreator.mkstech.procedures.PhoneguiopenappsettingsProcedure;
+import net.mcreator.mkstech.procedures.PhoneguiopenappclockProcedure;
 import net.mcreator.mkstech.procedures.PhoneguimessengerappopenscriptProcedure;
 import net.mcreator.mkstech.procedures.PhoneguiappmusicopenscriptProcedure;
 import net.mcreator.mkstech.procedures.PhoneguiYTopenscriptProcedure;
@@ -85,6 +87,14 @@ public class PhoneguiButtonMessage {
 		if (buttonID == 4) {
 
 			PhoneguiappmusicopenscriptProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 5) {
+
+			PhoneguiopenappclockProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 6) {
+
+			PhoneguiopenappsettingsProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

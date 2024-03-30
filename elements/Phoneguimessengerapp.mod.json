@@ -20,27 +20,13 @@
         }
       },
       {
-        "type": "button",
-        "data": {
-          "name": "button_open_chat_to_chat",
-          "text": "Open chat to chat",
-          "onClick": {
-            "name": "Phonefunctionopenchat2chat"
-          },
-          "width": 113,
-          "height": 20,
-          "x": 182,
-          "y": 84
-        }
-      },
-      {
         "type": "textfield",
         "data": {
           "placeholder": "",
           "name": "chat2chat_placeholder",
           "width": 120,
           "height": 20,
-          "x": 178,
+          "x": 134,
           "y": 152
         }
       },
@@ -55,6 +41,20 @@
           },
           "x": 302,
           "y": 104
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_send",
+          "text": "Send",
+          "onClick": {
+            "name": "Phonefunctionopenchat2chat"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 254,
+          "y": 152
         }
       }
     ],
