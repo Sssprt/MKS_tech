@@ -4,10 +4,10 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="mks_tech"
-version="0.2.0"
+version="0.3.0"
 displayName="MKS tech"
 credits="Mod created by Ssprt_ with using mod maker MCreator"
-displayURL="http://ssprtcomm.tilda.ws"
+displayURL="https://modrinth.com/mod/mks-tech"
 logoFile="logo.png"
 authors="Ssprt_ MCreator"
 description='''

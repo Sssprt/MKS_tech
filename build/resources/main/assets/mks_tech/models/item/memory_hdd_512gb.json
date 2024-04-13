@@ -1,0 +1,7 @@
+{
+  "parent": "mks_tech:custom/hdd_512gb",
+  "textures": {
+    "0": "mks_tech:blocks/hdd_512gb",
+    "particle": "mks_tech:items/hdd_512gb"
+  }
+}

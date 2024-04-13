@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "videocard_nmovie_g720"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -13,13 +13,12 @@ import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 
 import net.mcreator.mkstech.procedures.LaptopGamingShiftSndPkmProcedure;
-import net.mcreator.mkstech.init.MksTechModTabs;
 
 import java.util.List;
 
 public class LaptopGamingItem extends Item {
 	public LaptopGamingItem() {
-		super(new Item.Properties().tab(MksTechModTabs.TAB_MKS_TECH).stacksTo(1).fireResistant().rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(null).stacksTo(1).fireResistant().rarity(Rarity.COMMON));
 	}
 
 	@Override

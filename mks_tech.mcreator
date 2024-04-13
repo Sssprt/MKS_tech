@@ -379,8 +379,8 @@
         ],
         "dependencies": [
           {
-            "name": "itemstack",
-            "type": "itemstack"
+            "name": "entity",
+            "type": "entity"
           }
         ]
       }
@@ -1188,98 +1188,232 @@
           }
         ]
       }
+    },
+    {
+      "name": "SmartwatchOld",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smartwatch_old",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/item/SmartwatchOldItem.java",
+          "src/main/resources/assets/mks_tech/models/item/smartwatch_old.json"
+        ]
+      }
+    },
+    {
+      "name": "SmartwatchNewYellow",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smartwatch_new_yellow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/item/SmartwatchNewYellowItem.java",
+          "src/main/resources/assets/mks_tech/models/item/smartwatch_new_yellow.json"
+        ]
+      }
+    },
+    {
+      "name": "Keyboard",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "keyboard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mks_tech/blockstates/keyboard.json",
+          "src/main/resources/assets/mks_tech/models/block/keyboard.json",
+          "src/main/java/net/mcreator/mkstech/block/KeyboardBlock.java",
+          "src/main/resources/assets/mks_tech/models/item/keyboard.json"
+        ]
+      }
+    },
+    {
+      "name": "GamingMonitor",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gaming_monitor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mks_tech/models/item/gaming_monitor.json",
+          "src/main/resources/assets/mks_tech/blockstates/gaming_monitor.json",
+          "src/main/java/net/mcreator/mkstech/block/GamingMonitorBlock.java",
+          "src/main/resources/assets/mks_tech/models/block/gaming_monitor.json"
+        ]
+      }
+    },
+    {
+      "name": "RobotVacuumCleaner",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "robot_vacuum_cleaner",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mks_tech/blockstates/robot_vacuum_cleaner.json",
+          "src/main/java/net/mcreator/mkstech/block/RobotVacuumCleanerBlock.java",
+          "src/main/resources/assets/mks_tech/models/item/robot_vacuum_cleaner.json",
+          "src/main/resources/assets/mks_tech/models/block/robot_vacuum_cleaner.json"
+        ]
+      }
+    },
+    {
+      "name": "MemoryHDD512gb",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "memory_hdd_512gb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/item/MemoryHDD512gbItem.java",
+          "src/main/resources/assets/mks_tech/models/item/memory_hdd_512gb.json"
+        ]
+      }
+    },
+    {
+      "name": "VideocardNmovieG720",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "videocard_nmovie_g_720",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/item/VideocardNmovieG720Item.java",
+          "src/main/resources/assets/mks_tech/models/item/videocard_nmovie_g_720.json"
+        ]
+      }
+    },
+    {
+      "name": "ProcessorOuttechu42413",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processor_outtechu_42413",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mks_tech/models/item/processor_outtechu_42413.json",
+          "src/main/java/net/mcreator/mkstech/item/ProcessorOuttechu42413Item.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "ru_ru": {
-      "gui.mks_tech.phoneguimusic.button_clear1": "Дождь",
-      "gui.mks_tech.phoneguiweather.label_set_weather": "Уст. погоду",
-      "item.mks_tech.laptopoldclassic": "Ноутбук Старый",
+      "block.mks_tech.keyboard": "Клавиатура",
+      "item.mks_tech.videocard_nmovie_g_720": "nmovie G720",
       "item.mks_tech.laptop_gaming": "Игровой ноутбук",
       "gui.mks_tech.phonegui_yt.button_microfrog": "microfrog",
-      "gui.mks_tech.phonegui.testtextinterpole": "test text inter",
-      "item.mks_tech.smartphoneclassicon": "Смартфон",
+      "item.mks_tech.processor_outtechu_42413": "Outtech u4_2413",
       "gui.mks_tech.phoneguimusic.label_set_weather": "Уст. погоду",
       "gui.mks_tech.phoneguimessengerapp.message_title_test_pole": "",
       "gui.mks_tech.phoneguimusic.button_strad": "Strad",
-      "gui.mks_tech.phoneguimusic.button_blocks_c418": "Blocks - C418",
-      "gui.mks_tech.phoneguimusic.button_far": "Far",
       "gui.mks_tech.phoneguimusic.button_cat": "Cat",
       "gui.mks_tech.phoneguimusic.button_blocks": "Blocks",
       "gui.mks_tech.phoneguimusic.button_stop": "ост.",
+      "block.mks_tech.gaming_monitor": "Игровой монитор",
+      "block.mks_tech.robot_vacuum_cleaner": "Робот-пылесос",
       "gui.mks_tech.phonegui.test_checkbox": "test checkbox",
       "gui.mks_tech.phoneguimessengerapp.button_send": "Send",
-      "gui.mks_tech.phoneguiappsettings.button_day": "Day",
       "gui.mks_tech.phoneguimessengerapp.chat2chat_placeholder": "",
+      "item.mks_tech.memory_hdd_512gb": "Memory HDD 5 1 2gb",
       "gui.mks_tech.phoneguimusic.button_wait": "Wait",
       "gui.mks_tech.phoneguiappclock.button_night": "Ночь",
-      "gui.mks_tech.phoneguimusic.button_stal": "Stal",
-      "gui.mks_tech.phoneguimusic.button_11": "11",
       "gui.mks_tech.phoneguimusic.button_5": "5",
-      "advancements.wowsmartphone.title": "Вау, смартфон",
-      "gui.mks_tech.phoneguimusic.button_13": "13",
-      "block.mks_tech.laptop_gaming_block_object": "Laptop Gaming Block Object",
       "gui.mks_tech.phoneguiappsettings.button_night": "Night",
-      "gui.mks_tech.phoneguiappclock.button_day": "День",
       "gui.mks_tech.phoneguimusic.button_pigstep": "Pigstep",
-      "item.mks_tech.smartphoneclassicoff": "Смартфон",
       "advancements.wowsmartphone.descr": "Купить смартфон",
-      "item.mks_tech.headphones": "Наушники",
-      "gui.mks_tech.phoneguimusic.label_choose_music": "Выбр. муз.",
       "gui.mks_tech.phoneguimusic.button_clear": "Ясно",
-      "item.mks_tech.tabletclassic": "Планшет",
-      "gui.mks_tech.phoneguiweather.button_clear": "Ясно",
-      "gui.mks_tech.phoneguimusic.button_cat_c418": "Cat - C418",
       "gui.mks_tech.phoneguimusic.button_mall": "Mall",
-      "itemGroup.tabmks_tech": "MKS Tech",
       "gui.mks_tech.phoneguimessengerapp.button_open_chat_to_chat": "Open chat to chat",
-      "gui.mks_tech.phoneguiweather.button_clear1": "Дождь"
-    },
-    "en_us": {
-      "gui.mks_tech.phoneguimusic.button_clear1": "Rain",
-      "gui.mks_tech.phoneguiweather.label_set_weather": "Set weather",
-      "item.mks_tech.laptopoldclassic": "Laptop old",
-      "item.mks_tech.laptop_gaming": "Laptop Gaming",
-      "gui.mks_tech.phonegui_yt.button_microfrog": "microfrog",
-      "gui.mks_tech.phoneguimusic.label_set_weather": "Set weather",
-      "item.mks_tech.smartphoneclassicon": "Smartphone",
+      "gui.mks_tech.phoneguiweather.button_clear1": "Дождь",
+      "gui.mks_tech.phoneguiweather.label_set_weather": "Уст. погоду",
+      "gui.mks_tech.phoneguimusic.button_clear1": "Дождь",
+      "item.mks_tech.laptopoldclassic": "Ноутбук Старый",
+      "item.mks_tech.smartphoneclassicon": "Смартфон",
       "gui.mks_tech.phonegui.testtextinterpole": "test text inter",
-      "gui.mks_tech.phoneguimessengerapp.message_title_test_pole": "",
-      "gui.mks_tech.phoneguimusic.button_strad": "Strad",
       "gui.mks_tech.phoneguimusic.button_blocks_c418": "Blocks - C418",
       "gui.mks_tech.phoneguimusic.button_far": "Far",
+      "gui.mks_tech.phoneguiappsettings.button_day": "Day",
+      "item.mks_tech.smartwatch_new_yellow": "Умные часы",
+      "gui.mks_tech.phoneguimusic.button_stal": "Stal",
+      "gui.mks_tech.phoneguimusic.button_11": "11",
+      "advancements.wowsmartphone.title": "Вау, смартфон",
+      "gui.mks_tech.phoneguimusic.button_13": "13",
+      "block.mks_tech.laptop_gaming_block_object": "Игровой ноутбук",
+      "gui.mks_tech.phoneguiappclock.button_day": "День",
+      "item.mks_tech.smartphoneclassicoff": "Смартфон",
+      "item.mks_tech.headphones": "Наушники",
+      "gui.mks_tech.phoneguimusic.label_choose_music": "Выбр. муз.",
+      "item.mks_tech.tabletclassic": "Планшет",
+      "gui.mks_tech.phoneguimusic.button_cat_c418": "Cat - C418",
+      "gui.mks_tech.phoneguiweather.button_clear": "Ясно",
+      "itemGroup.tabmks_tech": "MKS Tech",
+      "item.mks_tech.smartwatch_old": "Умные часы"
+    },
+    "en_us": {
+      "block.mks_tech.keyboard": "Keyboard",
+      "item.mks_tech.videocard_nmovie_g_720": "nmovie G720",
+      "item.mks_tech.laptop_gaming": "Laptop Gaming",
+      "gui.mks_tech.phonegui_yt.button_microfrog": "microfrog",
+      "item.mks_tech.processor_outtechu_42413": "Outtech u4_2413",
+      "gui.mks_tech.phoneguimusic.label_set_weather": "Set weather",
+      "gui.mks_tech.phoneguimessengerapp.message_title_test_pole": "",
+      "gui.mks_tech.phoneguimusic.button_strad": "Strad",
       "gui.mks_tech.phoneguimusic.button_cat": "Cat",
       "gui.mks_tech.phoneguimusic.button_blocks": "Blocks",
       "gui.mks_tech.phoneguimusic.button_stop": "stop",
+      "block.mks_tech.gaming_monitor": "Gaming Monitor",
+      "block.mks_tech.robot_vacuum_cleaner": "Robot Vacuum Cleaner",
       "gui.mks_tech.phonegui.test_checkbox": "test checkbox",
       "gui.mks_tech.phoneguimessengerapp.button_send": "Send",
-      "gui.mks_tech.phoneguiappsettings.button_day": "Day",
       "gui.mks_tech.phoneguimessengerapp.chat2chat_placeholder": "",
+      "item.mks_tech.memory_hdd_512gb": "Memory HDD 5 1 2gb",
       "gui.mks_tech.phoneguimusic.button_wait": "Wait",
       "gui.mks_tech.phoneguiappclock.button_night": "Night",
+      "gui.mks_tech.phoneguimusic.button_5": "5",
+      "gui.mks_tech.phoneguiappsettings.button_night": "Night",
+      "gui.mks_tech.phoneguimusic.button_pigstep": "Pigstep",
+      "advancements.wowsmartphone.descr": "Buy a smartphone",
+      "gui.mks_tech.phoneguimusic.button_clear": "Clear",
+      "gui.mks_tech.phoneguimusic.button_mall": "Mall",
+      "gui.mks_tech.phoneguimessengerapp.button_open_chat_to_chat": "Open chat to chat",
+      "gui.mks_tech.phoneguiweather.button_clear1": "Rain",
+      "gui.mks_tech.phoneguimusic.button_clear1": "Rain",
+      "gui.mks_tech.phoneguiweather.label_set_weather": "Set weather",
+      "item.mks_tech.laptopoldclassic": "Laptop old",
+      "item.mks_tech.smartphoneclassicon": "Smartphone",
+      "gui.mks_tech.phonegui.testtextinterpole": "test text inter",
+      "gui.mks_tech.phoneguimusic.button_blocks_c418": "Blocks - C418",
+      "gui.mks_tech.phoneguimusic.button_far": "Far",
+      "gui.mks_tech.phoneguiappsettings.button_day": "Day",
+      "item.mks_tech.smartwatch_new_yellow": "Smart watch",
       "gui.mks_tech.phoneguimusic.button_stal": "Stal",
       "gui.mks_tech.phoneguimusic.button_11": "11",
-      "gui.mks_tech.phoneguimusic.button_5": "5",
       "advancements.wowsmartphone.title": "Wow smartphone",
       "gui.mks_tech.phoneguimusic.button_13": "13",
-      "block.mks_tech.laptop_gaming_block_object": "Laptop Gaming Block Object",
-      "gui.mks_tech.phoneguiappsettings.button_night": "Night",
+      "block.mks_tech.laptop_gaming_block_object": "Laptop Gaming",
       "gui.mks_tech.phoneguiappclock.button_day": "Day",
-      "gui.mks_tech.phoneguimusic.button_pigstep": "Pigstep",
       "item.mks_tech.smartphoneclassicoff": "Smartphone",
-      "advancements.wowsmartphone.descr": "Buy a smartphone",
       "item.mks_tech.headphones": "Headphones",
       "gui.mks_tech.phoneguimusic.label_choose_music": "Choose music",
-      "gui.mks_tech.phoneguimusic.button_clear": "Clear",
       "item.mks_tech.tabletclassic": "Tablet",
-      "gui.mks_tech.phoneguiweather.button_clear": "Clear",
       "gui.mks_tech.phoneguimusic.button_cat_c418": "Cat - C418",
-      "gui.mks_tech.phoneguimusic.button_mall": "Mall",
+      "gui.mks_tech.phoneguiweather.button_clear": "Clear",
       "itemGroup.tabmks_tech": "MKS Tech",
-      "gui.mks_tech.phoneguimessengerapp.button_open_chat_to_chat": "Open chat to chat",
-      "gui.mks_tech.phoneguiweather.button_clear1": "Rain"
+      "item.mks_tech.smartwatch_old": "Smart watch"
     }
   },
   "foldersRoot": {
@@ -1289,10 +1423,10 @@
   "workspaceSettings": {
     "modid": "mks_tech",
     "modName": "MKS tech",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "MKS tech this is a mod that adds electronics to our favorite Minecraft, some of them have functionality",
     "author": "Ssprt_ MCreator",
-    "websiteURL": "http://ssprtcomm.tilda.ws",
+    "websiteURL": "https://modrinth.com/mod/mks-tech",
     "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,

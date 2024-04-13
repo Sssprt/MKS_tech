@@ -21,5 +21,9 @@ public class HeadphonesPriNazhatiiPravoiKnopkoiMyshiProcedure {
 				_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(MksTechModItems.HEADPHONES.get()));
 			}
 		}
+		if (entity instanceof Player _player) {
+			ItemStack _stktoremove = new ItemStack(MksTechModItems.HEADPHONES.get());
+			_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+		}
 	}
 }

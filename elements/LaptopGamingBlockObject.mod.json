@@ -12,7 +12,7 @@
     "customModelName": "laptop_gaming_open:default",
     "rotationMode": 1,
     "enablePitch": false,
-    "emissiveRendering": false,
+    "emissiveRendering": true,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
@@ -33,8 +33,10 @@
         "subtract": false
       }
     ],
-    "name": "Laptop Gaming Block Object",
-    "specialInfo": [],
+    "name": "Laptop Gaming",
+    "specialInfo": [
+      "Model: Gaming"
+    ],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
@@ -76,7 +78,7 @@
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": false,
+    "isNotColidable": true,
     "isCustomSoundType": false,
     "soundOnStep": {
       "value": "METAL"
@@ -96,7 +98,7 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 0,
+    "luminance": 1,
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "isBonemealable": false,
@@ -117,9 +119,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "LaptopGamingPriShchielchkiePravoiKnopkoiMyshiNaBlokie"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

@@ -1,0 +1,8 @@
+{
+  "parent": "mks_tech:custom/robotvacuumcleaner",
+  "textures": {
+    "all": "mks_tech:blocks/robotvacuumcleaner",
+    "particle": "mks_tech:blocks/robotvacuumcleaner",
+    "0": "mks_tech:blocks/robotvacuumcleaner"
+  }
+}

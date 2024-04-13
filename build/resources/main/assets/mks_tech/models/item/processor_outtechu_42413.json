@@ -1,0 +1,7 @@
+{
+  "parent": "mks_tech:custom/processor_outtech_u4_2413",
+  "textures": {
+    "0": "mks_tech:blocks/processor_outtech_u4_2413",
+    "particle": "mks_tech:items/processor_outtech_u4_2413"
+  }
+}

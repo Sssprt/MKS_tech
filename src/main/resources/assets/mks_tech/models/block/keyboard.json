@@ -1,0 +1,8 @@
+{
+  "parent": "mks_tech:custom/keyboard",
+  "textures": {
+    "all": "mks_tech:blocks/keyboard",
+    "particle": "mks_tech:blocks/keyboard",
+    "0": "mks_tech:blocks/keyboard"
+  }
+}

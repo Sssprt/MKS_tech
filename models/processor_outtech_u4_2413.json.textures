@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "processor_outtech_u4_2413"
+      },
+      "name": "default"
+    }
+  }
+}

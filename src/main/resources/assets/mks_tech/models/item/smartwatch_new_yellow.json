@@ -1,0 +1,7 @@
+{
+  "parent": "mks_tech:custom/smartwatch_new_yellow",
+  "textures": {
+    "0": "mks_tech:blocks/smartwatch_new_yellow",
+    "particle": "mks_tech:items/smartwatch_new_yellow"
+  }
+}

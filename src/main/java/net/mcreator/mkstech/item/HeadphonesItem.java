@@ -1,6 +1,7 @@
 
 package net.mcreator.mkstech.item;
 
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Rarity;
@@ -19,7 +20,12 @@ import java.util.List;
 
 public class HeadphonesItem extends Item {
 	public HeadphonesItem() {
-		super(new Item.Properties().tab(MksTechModTabs.TAB_MKS_TECH).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(MksTechModTabs.TAB_MKS_TECH).stacksTo(1).rarity(Rarity.COMMON));
+	}
+
+	@Override
+	public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
+		return 0F;
 	}
 
 	@Override

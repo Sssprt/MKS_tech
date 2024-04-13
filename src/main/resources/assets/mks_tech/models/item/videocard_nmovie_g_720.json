@@ -1,0 +1,7 @@
+{
+  "parent": "mks_tech:custom/videocard_nmovie_g720",
+  "textures": {
+    "0": "mks_tech:blocks/videocard_nmovie_g720",
+    "particle": "mks_tech:items/videocard_nmovie_g720"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mks_tech:block/robot_vacuum_cleaner"
+    },
+    "facing=east": {
+      "model": "mks_tech:block/robot_vacuum_cleaner",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mks_tech:block/robot_vacuum_cleaner",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mks_tech:block/robot_vacuum_cleaner",
+      "y": 270
+    }
+  }
+}
