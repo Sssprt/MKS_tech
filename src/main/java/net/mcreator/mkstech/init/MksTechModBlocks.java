@@ -15,6 +15,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.mkstech.block.RobotVacuumCleanerBlock;
+import net.mcreator.mkstech.block.PCmdeu4nmovieBlock;
 import net.mcreator.mkstech.block.LaptopGamingBlockObjectBlock;
 import net.mcreator.mkstech.block.KeyboardBlock;
 import net.mcreator.mkstech.block.GamingMonitorBlock;
@@ -26,6 +27,7 @@ public class MksTechModBlocks {
 	public static final RegistryObject<Block> KEYBOARD = REGISTRY.register("keyboard", () -> new KeyboardBlock());
 	public static final RegistryObject<Block> GAMING_MONITOR = REGISTRY.register("gaming_monitor", () -> new GamingMonitorBlock());
 	public static final RegistryObject<Block> ROBOT_VACUUM_CLEANER = REGISTRY.register("robot_vacuum_cleaner", () -> new RobotVacuumCleanerBlock());
+	public static final RegistryObject<Block> P_CMDEU_4NMOVIE = REGISTRY.register("p_cmdeu_4nmovie", () -> new PCmdeu4nmovieBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -35,6 +37,7 @@ public class MksTechModBlocks {
 			KeyboardBlock.registerRenderLayer();
 			GamingMonitorBlock.registerRenderLayer();
 			RobotVacuumCleanerBlock.registerRenderLayer();
+			PCmdeu4nmovieBlock.registerRenderLayer();
 		}
 	}
 }

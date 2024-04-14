@@ -1,0 +1,7 @@
+{
+  "parent": "mks_tech:custom/pc_corpuse",
+  "textures": {
+    "0": "mks_tech:blocks/pc_corpuse",
+    "particle": "mks_tech:items/pc_corpuse"
+  }
+}

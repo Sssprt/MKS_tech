@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mks_tech:block/p_cmdeu_4nmovie"
+    },
+    "facing=east": {
+      "model": "mks_tech:block/p_cmdeu_4nmovie",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mks_tech:block/p_cmdeu_4nmovie",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mks_tech:block/p_cmdeu_4nmovie",
+      "y": 270
+    }
+  }
+}

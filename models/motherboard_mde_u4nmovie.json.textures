@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "motherboard_mde_u4nmovie"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -5,10 +5,10 @@
     "renderType": 1,
     "texture": "videocard_nmovie_g720",
     "customModelName": "videocard_nmovie_g720:default",
-    "name": "nmovie G720",
+    "name": "Video card: §lnmovie",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:MKSTech"
+      "value": "CUSTOM:Mkstechpccomplect"
     },
     "stackSize": 1,
     "enchantability": 0,
@@ -19,13 +19,13 @@
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "Model: g720"
+      "Model: §lG720"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

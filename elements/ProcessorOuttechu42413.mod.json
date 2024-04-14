@@ -5,10 +5,10 @@
     "renderType": 1,
     "texture": "processor_outtech_u4_2413",
     "customModelName": "processor_outtech_u4_2413:default",
-    "name": "Outtech u4_2413",
+    "name": "Processor: §louttech",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:MKSTech"
+      "value": "CUSTOM:Mkstechpccomplect"
     },
     "stackSize": 1,
     "enchantability": 0,
@@ -19,13 +19,13 @@
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "Model: u4_2413"
+      "Model: §lu4_2413"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

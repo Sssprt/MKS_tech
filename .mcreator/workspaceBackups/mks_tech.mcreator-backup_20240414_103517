@@ -1,0 +1,1551 @@
+{
+  "mod_elements": [
+    {
+      "name": "Smartphoneclassicoff",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smartphoneclassicoff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/item/SmartphoneclassicoffItem.java",
+          "src/main/resources/assets/mks_tech/models/item/smartphoneclassicoff.json"
+        ]
+      }
+    },
+    {
+      "name": "MKSTech",
+      "type": "tab",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mks_tech",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Phonegui",
+      "type": "gui",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phonegui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/client/gui/PhoneguiScreen.java",
+          "src/main/java/net/mcreator/mkstech/network/PhoneguiButtonMessage.java",
+          "src/main/java/net/mcreator/mkstech/world/inventory/PhoneguiMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "SmartphoneclassicoffPriNazhatiiPravoiKnopkoiMyshi",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smartphoneclassicoff_pri_nazhatii_pravoi_knopkoi_myshi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/SmartphoneclassicoffPriNazhatiiPravoiKnopkoiMyshiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PhoneguiZnachieniie",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phonegui_znachieniie",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/PhoneguiZnachieniieProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Smartphoneclassicon",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smartphoneclassicon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mks_tech/models/item/smartphoneclassicon.json",
+          "src/main/java/net/mcreator/mkstech/item/SmartphoneclassiconItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PhoneguiYT",
+      "type": "gui",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phonegui_yt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/network/PhoneguiYTButtonMessage.java",
+          "src/main/java/net/mcreator/mkstech/world/inventory/PhoneguiYTMenu.java",
+          "src/main/java/net/mcreator/mkstech/client/gui/PhoneguiYTScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "PhoneguiYTopenscript",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phonegui_y_topenscript",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/PhoneguiYTopenscriptProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Phoneguiytvideomicrofrogopenchat",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phoneguiytvideomicrofrogopenchat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/PhoneguiytvideomicrofrogopenchatProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Phoneguimessengerapp",
+      "type": "gui",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phoneguimessengerapp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/client/gui/PhoneguimessengerappScreen.java",
+          "src/main/java/net/mcreator/mkstech/network/PhoneguimessengerappButtonMessage.java",
+          "src/main/java/net/mcreator/mkstech/world/inventory/PhoneguimessengerappMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Phoneguimessengerappopenscript",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phoneguimessengerappopenscript",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/PhoneguimessengerappopenscriptProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fullchargesmartphoneprocedure",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fullchargesmartphoneprocedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/FullchargesmartphoneprocedureProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Fullchargesmartphone",
+      "type": "command",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fullchargesmartphone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/command/FullchargesmartphoneCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Wowsmartphone",
+      "type": "achievement",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wowsmartphone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mks_tech/advancements/wowsmartphone.json"
+        ]
+      }
+    },
+    {
+      "name": "Phonefunctionopenchat2chat",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phonefunctionopenchat_2chat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/Phonefunctionopenchat2chatProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Laptopoldclassic",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laptopoldclassic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mks_tech/models/item/laptopoldclassic.json",
+          "src/main/java/net/mcreator/mkstech/item/LaptopoldclassicItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LaptopGaming",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laptop_gaming",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/item/LaptopGamingItem.java",
+          "src/main/resources/assets/mks_tech/models/item/laptop_gaming.json"
+        ]
+      }
+    },
+    {
+      "name": "LaptopGamingBlockObject",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laptop_gaming_block_object",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/block/LaptopGamingBlockObjectBlock.java",
+          "src/main/resources/assets/mks_tech/blockstates/laptop_gaming_block_object.json",
+          "src/main/resources/assets/mks_tech/models/block/laptop_gaming_block_object.json",
+          "src/main/resources/assets/mks_tech/models/item/laptop_gaming_block_object.json"
+        ]
+      }
+    },
+    {
+      "name": "LaptopGamingPriShchielchkiePravoiKnopkoiMyshiNaBlokie",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laptop_gaming_pri_shchielchkie_pravoi_knopkoi_myshi_na_blokie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/LaptopGamingPriShchielchkiePravoiKnopkoiMyshiNaBlokieProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LaptopGamingPriShchielchkiePravoiKnopkoiMyshiNaBlokie1211",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laptop_gaming_pri_shchielchkie_pravoi_knopkoi_myshi_na_blokie_1211",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/LaptopGamingPriShchielchkiePravoiKnopkoiMyshiNaBlokie1211Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Phoneguiweather",
+      "type": "gui",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phoneguiweather",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/client/gui/PhoneguiweatherScreen.java",
+          "src/main/java/net/mcreator/mkstech/network/PhoneguiweatherButtonMessage.java",
+          "src/main/java/net/mcreator/mkstech/world/inventory/PhoneguiweatherMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Phoneguiopenappweatherscript",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phoneguiopenappweatherscript",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/PhoneguiopenappweatherscriptProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Appweathersetrain",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "appweathersetrain",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/AppweathersetrainProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Appweathersetclear",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "appweathersetclear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/AppweathersetclearProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Phonehomebuttonscript",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phonehomebuttonscript",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/PhonehomebuttonscriptProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Phoneoffhomebutton",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phoneoffhomebutton",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/PhoneoffhomebuttonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Phoneguimusic",
+      "type": "gui",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phoneguimusic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/world/inventory/PhoneguimusicMenu.java",
+          "src/main/java/net/mcreator/mkstech/network/PhoneguimusicButtonMessage.java",
+          "src/main/java/net/mcreator/mkstech/client/gui/PhoneguimusicScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "Phoneguiappmusicopenscript",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phoneguiappmusicopenscript",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/PhoneguiappmusicopenscriptProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Appmusicplaycatc418",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "appmusicplaycatc_418",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/Appmusicplaycatc418Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Appmusicplayblocksc418",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "appmusicplayblocksc_418",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/Appmusicplayblocksc418Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Appmusicplaypigsteplenareyne",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "appmusicplaypigsteplenareyne",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/AppmusicplaypigsteplenareyneProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Appmusicstopall",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "appmusicstopall",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/AppmusicstopallProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Appmusicplaywaitc418",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "appmusicplaywaitc_418",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/Appmusicplaywaitc418Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Appmusicplaystradc418",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "appmusicplaystradc_418",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/Appmusicplaystradc418Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Appmusicplaywallc418",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "appmusicplaywallc_418",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/Appmusicplaywallc418Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Appmusicplaycrispc418",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "appmusicplaycrispc_418",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/Appmusicplaycrispc418Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Appmusicplayfarc418",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "appmusicplayfarc_418",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/Appmusicplayfarc418Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Appmusicplaystalc418",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "appmusicplaystalc_418",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/Appmusicplaystalc418Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Appmusicplay13c418",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "appmusicplay_13c_418",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/Appmusicplay13c418Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Appmusicplay11c418",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "appmusicplay_11c_418",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/Appmusicplay11c418Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Phoneguiappclock",
+      "type": "gui",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phoneguiappclock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/client/gui/PhoneguiappclockScreen.java",
+          "src/main/java/net/mcreator/mkstech/world/inventory/PhoneguiappclockMenu.java",
+          "src/main/java/net/mcreator/mkstech/network/PhoneguiappclockButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Phoneguiopenappclock",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phoneguiopenappclock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/PhoneguiopenappclockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Appclocktimesetday",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "appclocktimesetday",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/AppclocktimesetdayProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Appclocktimesetfullnight",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "appclocktimesetfullnight",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/AppclocktimesetfullnightProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Phoneguiappsettings",
+      "type": "gui",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phoneguiappsettings",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/world/inventory/PhoneguiappsettingsMenu.java",
+          "src/main/java/net/mcreator/mkstech/client/gui/PhoneguiappsettingsScreen.java",
+          "src/main/java/net/mcreator/mkstech/network/PhoneguiappsettingsButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Phoneguiopenappsettings",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phoneguiopenappsettings",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/PhoneguiopenappsettingsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tabletclassic",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tabletclassic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mks_tech/models/item/tabletclassic.json",
+          "src/main/java/net/mcreator/mkstech/item/TabletclassicItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LaptopGamingShiftSndPkm",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laptop_gaming_shift_snd_pkm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/LaptopGamingShiftSndPkmProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Headphones",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "headphones",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/item/HeadphonesItem.java",
+          "src/main/resources/assets/mks_tech/models/item/headphones.json"
+        ]
+      }
+    },
+    {
+      "name": "HeadphonesPriNazhatiiPravoiKnopkoiMyshi",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "headphones_pri_nazhatii_pravoi_knopkoi_myshi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/HeadphonesPriNazhatiiPravoiKnopkoiMyshiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SmartwatchOld",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smartwatch_old",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/item/SmartwatchOldItem.java",
+          "src/main/resources/assets/mks_tech/models/item/smartwatch_old.json"
+        ]
+      }
+    },
+    {
+      "name": "SmartwatchNewYellow",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smartwatch_new_yellow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/item/SmartwatchNewYellowItem.java",
+          "src/main/resources/assets/mks_tech/models/item/smartwatch_new_yellow.json"
+        ]
+      }
+    },
+    {
+      "name": "Keyboard",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "keyboard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mks_tech/blockstates/keyboard.json",
+          "src/main/resources/assets/mks_tech/models/block/keyboard.json",
+          "src/main/java/net/mcreator/mkstech/block/KeyboardBlock.java",
+          "src/main/resources/assets/mks_tech/models/item/keyboard.json"
+        ]
+      }
+    },
+    {
+      "name": "GamingMonitor",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gaming_monitor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mks_tech/models/item/gaming_monitor.json",
+          "src/main/resources/assets/mks_tech/blockstates/gaming_monitor.json",
+          "src/main/java/net/mcreator/mkstech/block/GamingMonitorBlock.java",
+          "src/main/resources/assets/mks_tech/models/block/gaming_monitor.json"
+        ]
+      }
+    },
+    {
+      "name": "RobotVacuumCleaner",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "robot_vacuum_cleaner",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mks_tech/blockstates/robot_vacuum_cleaner.json",
+          "src/main/java/net/mcreator/mkstech/block/RobotVacuumCleanerBlock.java",
+          "src/main/resources/assets/mks_tech/models/item/robot_vacuum_cleaner.json",
+          "src/main/resources/assets/mks_tech/models/block/robot_vacuum_cleaner.json"
+        ]
+      }
+    },
+    {
+      "name": "MemoryHDD512gb",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "memory_hdd_512gb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/item/MemoryHDD512gbItem.java",
+          "src/main/resources/assets/mks_tech/models/item/memory_hdd_512gb.json"
+        ]
+      }
+    },
+    {
+      "name": "VideocardNmovieG720",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "videocard_nmovie_g_720",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/item/VideocardNmovieG720Item.java",
+          "src/main/resources/assets/mks_tech/models/item/videocard_nmovie_g_720.json"
+        ]
+      }
+    },
+    {
+      "name": "ProcessorOuttechu42413",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processor_outtechu_42413",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mks_tech/models/item/processor_outtechu_42413.json",
+          "src/main/java/net/mcreator/mkstech/item/ProcessorOuttechu42413Item.java"
+        ]
+      }
+    },
+    {
+      "name": "OperativeMemoryMde16gb",
+      "type": "item",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "operative_memory_mde_16gb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/item/OperativeMemoryMde16gbItem.java",
+          "src/main/resources/assets/mks_tech/models/item/operative_memory_mde_16gb.json"
+        ]
+      }
+    },
+    {
+      "name": "MotherboardMdeu4nmovie",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "motherboard_mdeu_4nmovie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/item/MotherboardMdeu4nmovieItem.java",
+          "src/main/resources/assets/mks_tech/models/item/motherboard_mdeu_4nmovie.json"
+        ]
+      }
+    },
+    {
+      "name": "Pccaseblack",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pccaseblack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/item/PccaseblackItem.java",
+          "src/main/resources/assets/mks_tech/models/item/pccaseblack.json"
+        ]
+      }
+    },
+    {
+      "name": "PCmdeu4nmovie",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "p_cmdeu_4nmovie",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mks_tech/models/block/p_cmdeu_4nmovie.json",
+          "src/main/resources/assets/mks_tech/blockstates/p_cmdeu_4nmovie.json",
+          "src/main/resources/assets/mks_tech/models/item/p_cmdeu_4nmovie.json",
+          "src/main/java/net/mcreator/mkstech/block/PCmdeu4nmovieBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PowerSupplyLightwarmGold",
+      "type": "item",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_supply_lightwarm_gold",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/item/PowerSupplyLightwarmGoldItem.java",
+          "src/main/resources/assets/mks_tech/models/item/power_supply_lightwarm_gold.json"
+        ]
+      }
+    },
+    {
+      "name": "PCmdeu4nmoviecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "p_cmdeu_4nmoviecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mks_tech/recipes/pc_mde_u4_nmovie_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "Mkstechpccomplect",
+      "type": "tab",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mkstechpccomplect",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "ru_ru": {
+      "block.mks_tech.keyboard": "Клавиатура",
+      "block.mks_tech.p_cmdeu_4nmovie": "PC",
+      "item.mks_tech.videocard_nmovie_g_720": "nmovie G720",
+      "item.mks_tech.laptop_gaming": "Игровой ноутбук",
+      "gui.mks_tech.phonegui_yt.button_microfrog": "microfrog",
+      "item.mks_tech.processor_outtechu_42413": "Outtech u4_2413",
+      "gui.mks_tech.phoneguimusic.label_set_weather": "Уст. погоду",
+      "gui.mks_tech.phoneguimessengerapp.message_title_test_pole": "",
+      "gui.mks_tech.phoneguimusic.button_strad": "Strad",
+      "gui.mks_tech.phoneguimusic.button_cat": "Cat",
+      "gui.mks_tech.phoneguimusic.button_blocks": "Blocks",
+      "item.mks_tech.motherboard_mdeu_4nmovie": "Motherboard MDE u4nmovie",
+      "gui.mks_tech.phoneguimusic.button_stop": "ост.",
+      "block.mks_tech.gaming_monitor": "Игровой монитор",
+      "block.mks_tech.robot_vacuum_cleaner": "Робот-пылесос",
+      "gui.mks_tech.phonegui.test_checkbox": "test checkbox",
+      "gui.mks_tech.phoneguimessengerapp.button_send": "Send",
+      "gui.mks_tech.phoneguimessengerapp.chat2chat_placeholder": "",
+      "item.mks_tech.memory_hdd_512gb": "Memory HDD 5 1 2gb",
+      "gui.mks_tech.phoneguimusic.button_wait": "Wait",
+      "gui.mks_tech.phoneguiappclock.button_night": "Ночь",
+      "gui.mks_tech.phoneguimusic.button_5": "5",
+      "gui.mks_tech.phoneguiappsettings.button_night": "Night",
+      "item.mks_tech.pccaseblack": "PC case",
+      "gui.mks_tech.phoneguimusic.button_pigstep": "Pigstep",
+      "advancements.wowsmartphone.descr": "Купить смартфон",
+      "gui.mks_tech.phoneguimusic.button_clear": "Ясно",
+      "gui.mks_tech.phoneguimusic.button_mall": "Mall",
+      "gui.mks_tech.phoneguimessengerapp.button_open_chat_to_chat": "Open chat to chat",
+      "gui.mks_tech.phoneguiweather.button_clear1": "Дождь",
+      "item.mks_tech.power_supply_lightwarm_gold": "Power supply LightWarm Gold",
+      "gui.mks_tech.phoneguiweather.label_set_weather": "Уст. погоду",
+      "gui.mks_tech.phoneguimusic.button_clear1": "Дождь",
+      "item.mks_tech.laptopoldclassic": "Ноутбук Старый",
+      "item.mks_tech.operative_memory_mde_16gb": "Operative memory MDE 16gb",
+      "itemGroup.tabmkstechpccomplect": "MKS Tech: PC components",
+      "item.mks_tech.smartphoneclassicon": "Смартфон",
+      "gui.mks_tech.phonegui.testtextinterpole": "test text inter",
+      "gui.mks_tech.phoneguimusic.button_blocks_c418": "Blocks - C418",
+      "gui.mks_tech.phoneguimusic.button_far": "Far",
+      "gui.mks_tech.phoneguiappsettings.button_day": "Day",
+      "item.mks_tech.smartwatch_new_yellow": "Умные часы",
+      "gui.mks_tech.phoneguimusic.button_stal": "Stal",
+      "gui.mks_tech.phoneguimusic.button_11": "11",
+      "advancements.wowsmartphone.title": "Вау, смартфон",
+      "gui.mks_tech.phoneguimusic.button_13": "13",
+      "block.mks_tech.laptop_gaming_block_object": "Игровой ноутбук",
+      "gui.mks_tech.phoneguiappclock.button_day": "День",
+      "item.mks_tech.smartphoneclassicoff": "Смартфон",
+      "item.mks_tech.headphones": "Наушники",
+      "gui.mks_tech.phoneguimusic.label_choose_music": "Выбр. муз.",
+      "item.mks_tech.tabletclassic": "Планшет",
+      "gui.mks_tech.phoneguimusic.button_cat_c418": "Cat - C418",
+      "gui.mks_tech.phoneguiweather.button_clear": "Ясно",
+      "itemGroup.tabmks_tech": "MKS Tech",
+      "item.mks_tech.smartwatch_old": "Умные часы"
+    },
+    "en_us": {
+      "block.mks_tech.keyboard": "Keyboard",
+      "block.mks_tech.p_cmdeu_4nmovie": "PC",
+      "item.mks_tech.videocard_nmovie_g_720": "Video card: \u0026lnmovie",
+      "item.mks_tech.laptop_gaming": "Laptop Gaming",
+      "gui.mks_tech.phonegui_yt.button_microfrog": "microfrog",
+      "item.mks_tech.processor_outtechu_42413": "Processor: \u0026louttech",
+      "gui.mks_tech.phoneguimusic.label_set_weather": "Set weather",
+      "gui.mks_tech.phoneguimessengerapp.message_title_test_pole": "",
+      "gui.mks_tech.phoneguimusic.button_strad": "Strad",
+      "gui.mks_tech.phoneguimusic.button_cat": "Cat",
+      "gui.mks_tech.phoneguimusic.button_blocks": "Blocks",
+      "item.mks_tech.motherboard_mdeu_4nmovie": "Motherboard: \u0026lMDE",
+      "gui.mks_tech.phoneguimusic.button_stop": "stop",
+      "block.mks_tech.gaming_monitor": "Gaming Monitor",
+      "block.mks_tech.robot_vacuum_cleaner": "Robot Vacuum Cleaner",
+      "gui.mks_tech.phonegui.test_checkbox": "test checkbox",
+      "gui.mks_tech.phoneguimessengerapp.button_send": "Send",
+      "gui.mks_tech.phoneguimessengerapp.chat2chat_placeholder": "",
+      "item.mks_tech.memory_hdd_512gb": "Memory: §lHDD",
+      "gui.mks_tech.phoneguimusic.button_wait": "Wait",
+      "gui.mks_tech.phoneguiappclock.button_night": "Night",
+      "gui.mks_tech.phoneguimusic.button_5": "5",
+      "gui.mks_tech.phoneguiappsettings.button_night": "Night",
+      "item.mks_tech.pccaseblack": "PC case",
+      "gui.mks_tech.phoneguimusic.button_pigstep": "Pigstep",
+      "advancements.wowsmartphone.descr": "Buy a smartphone",
+      "gui.mks_tech.phoneguimusic.button_clear": "Clear",
+      "gui.mks_tech.phoneguimusic.button_mall": "Mall",
+      "gui.mks_tech.phoneguimessengerapp.button_open_chat_to_chat": "Open chat to chat",
+      "gui.mks_tech.phoneguiweather.button_clear1": "Rain",
+      "item.mks_tech.power_supply_lightwarm_gold": "Power supply: LightWarm",
+      "gui.mks_tech.phoneguimusic.button_clear1": "Rain",
+      "gui.mks_tech.phoneguiweather.label_set_weather": "Set weather",
+      "item.mks_tech.laptopoldclassic": "Laptop old",
+      "item.mks_tech.operative_memory_mde_16gb": "RAM: \u0026lMDE",
+      "itemGroup.tabmkstechpccomplect": "MKS Tech: PC components",
+      "item.mks_tech.smartphoneclassicon": "Smartphone",
+      "gui.mks_tech.phonegui.testtextinterpole": "test text inter",
+      "gui.mks_tech.phoneguimusic.button_blocks_c418": "Blocks - C418",
+      "gui.mks_tech.phoneguimusic.button_far": "Far",
+      "gui.mks_tech.phoneguiappsettings.button_day": "Day",
+      "item.mks_tech.smartwatch_new_yellow": "Smart watch",
+      "gui.mks_tech.phoneguimusic.button_stal": "Stal",
+      "gui.mks_tech.phoneguimusic.button_11": "11",
+      "advancements.wowsmartphone.title": "Wow smartphone",
+      "gui.mks_tech.phoneguimusic.button_13": "13",
+      "block.mks_tech.laptop_gaming_block_object": "Laptop Gaming",
+      "gui.mks_tech.phoneguiappclock.button_day": "Day",
+      "item.mks_tech.smartphoneclassicoff": "Smartphone",
+      "item.mks_tech.headphones": "Headphones",
+      "gui.mks_tech.phoneguimusic.label_choose_music": "Choose music",
+      "item.mks_tech.tabletclassic": "Tablet",
+      "gui.mks_tech.phoneguimusic.button_cat_c418": "Cat - C418",
+      "gui.mks_tech.phoneguiweather.button_clear": "Clear",
+      "itemGroup.tabmks_tech": "MKS Tech",
+      "item.mks_tech.smartwatch_old": "Smart watch"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "mks_tech",
+    "modName": "MKS tech",
+    "version": "0.4.0",
+    "description": "MKS tech this is a mod that adds electronics to our favorite Minecraft, some of them have functionality",
+    "author": "Ssprt_ MCreator",
+    "websiteURL": "https://mks-mods.tilda.ws/mks-tech",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "mks_tech_mod_icon_pixelised",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Mod created by Ssprt_ with using mod maker MCreator",
+    "modElementsPackage": "net.mcreator.mkstech",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

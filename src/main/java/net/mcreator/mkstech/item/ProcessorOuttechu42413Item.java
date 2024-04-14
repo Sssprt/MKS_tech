@@ -16,7 +16,7 @@ import java.util.List;
 
 public class ProcessorOuttechu42413Item extends Item {
 	public ProcessorOuttechu42413Item() {
-		super(new Item.Properties().tab(MksTechModTabs.TAB_MKS_TECH).stacksTo(1).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(MksTechModTabs.TAB_MKSTECHPCCOMPLECT).stacksTo(1).fireResistant().rarity(Rarity.COMMON));
 	}
 
 	@Override
@@ -27,6 +27,6 @@ public class ProcessorOuttechu42413Item extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("Model: u4_2413"));
+		list.add(new TextComponent("Model: \u00A7lu4_2413"));
 	}
 }

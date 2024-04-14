@@ -5,10 +5,10 @@
     "renderType": 1,
     "texture": "hdd_512gb",
     "customModelName": "hdd_512gb:default",
-    "name": "Memory HDD 5 1 2gb",
+    "name": "Memory: §lHDD",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:MKSTech"
+      "value": "CUSTOM:Mkstechpccomplect"
     },
     "stackSize": 1,
     "enchantability": 0,
@@ -25,7 +25,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "Memory: 512gb"
+      "Memory: §l512gb"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

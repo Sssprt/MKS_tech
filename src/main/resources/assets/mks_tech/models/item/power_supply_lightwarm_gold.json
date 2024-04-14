@@ -1,0 +1,7 @@
+{
+  "parent": "mks_tech:custom/power_supply_lightwarm_gold",
+  "textures": {
+    "0": "mks_tech:blocks/power_supply_lightwarm_gold",
+    "particle": "mks_tech:items/power_supply_lightwarm_gold"
+  }
+}

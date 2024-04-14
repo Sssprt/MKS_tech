@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:VideocardNmovieG720"
+      },
+      {
+        "value": "CUSTOM:ProcessorOuttechu42413"
+      },
+      {
+        "value": "CUSTOM:OperativeMemoryMde16gb"
+      },
+      {
+        "value": "CUSTOM:PowerSupplyLightwarmGold"
+      },
+      {
+        "value": "CUSTOM:MotherboardMdeu4nmovie"
+      },
+      {
+        "value": "CUSTOM:MemoryHDD512gb"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PCmdeu4nmovie"
+    },
+    "name": "pc_mde_u4_nmovie_craft",
+    "namespace": "mod"
+  }
+}

@@ -16,7 +16,7 @@ import java.util.List;
 
 public class MemoryHDD512gbItem extends Item {
 	public MemoryHDD512gbItem() {
-		super(new Item.Properties().tab(MksTechModTabs.TAB_MKS_TECH).stacksTo(1).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(MksTechModTabs.TAB_MKSTECHPCCOMPLECT).stacksTo(1).rarity(Rarity.COMMON));
 	}
 
 	@Override
@@ -27,6 +27,6 @@ public class MemoryHDD512gbItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("Memory: 512gb"));
+		list.add(new TextComponent("Memory: \u00A7l512gb"));
 	}
 }

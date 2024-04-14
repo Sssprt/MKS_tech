@@ -1,0 +1,7 @@
+{
+  "parent": "mks_tech:custom/motherboard_mde_u4nmovie",
+  "textures": {
+    "0": "mks_tech:blocks/motherboard_mde_u4nmovie",
+    "particle": "mks_tech:items/motherboard_mde_u4nmovie"
+  }
+}

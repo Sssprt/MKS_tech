@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mks_tech:videocard_nmovie_g_720"
+    },
+    {
+      "item": "mks_tech:processor_outtechu_42413"
+    },
+    {
+      "item": "mks_tech:operative_memory_mde_16gb"
+    },
+    {
+      "item": "mks_tech:power_supply_lightwarm_gold"
+    },
+    {
+      "item": "mks_tech:motherboard_mdeu_4nmovie"
+    },
+    {
+      "item": "mks_tech:memory_hdd_512gb"
+    }
+  ],
+  "result": {
+    "item": "mks_tech:p_cmdeu_4nmovie",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "operative_memory_mde_16gb"
+      },
+      "name": "default"
+    }
+  }
+}

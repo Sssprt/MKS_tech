@@ -1,0 +1,7 @@
+{
+  "parent": "mks_tech:custom/operative_memory_mde_16gb",
+  "textures": {
+    "0": "mks_tech:blocks/operative_memory_mde_16gb",
+    "particle": "mks_tech:items/operative_memory_mde_16gb"
+  }
+}
