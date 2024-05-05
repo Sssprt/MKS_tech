@@ -1,0 +1,7 @@
+Java Launcher: /home/matvey/Документы/MCreator.2023.1.Linux.64bit/MCreator20231/jdk/bin/java
+Arguments: '--inJar, /home/matvey/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.1.0/forge-1.18.2-40.1.0-injected.jar, --outJar, /home/matvey/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.1.0_mapped_official_1.18.2/forge-1.18.2-40.1.0_mapped_official_1.18.2.jar, --logFile, accesstransform.log, --atFile, /home/matvey/Документы/GitHub/MKS_tech/build/_atJar_4/parent_at.cfg'
+Classpath:
+ - /home/matvey/.mcreator/gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/accesstransformers/8.0.7/accesstransformers-8.0.7-fatjar.jar
+Working directory: /home/matvey/Документы/GitHub/MKS_tech/build/_atJar_4
+Main class: net.minecraftforge.accesstransformer.TransformerProcessor
+====================================
