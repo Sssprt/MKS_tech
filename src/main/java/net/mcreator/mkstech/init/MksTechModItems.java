@@ -19,6 +19,7 @@ import net.mcreator.mkstech.item.SmartwatchOldItem;
 import net.mcreator.mkstech.item.SmartwatchNewYellowItem;
 import net.mcreator.mkstech.item.SmartphoneclassiconItem;
 import net.mcreator.mkstech.item.SmartphoneclassicoffItem;
+import net.mcreator.mkstech.item.ShotStarLightCameraItem;
 import net.mcreator.mkstech.item.ProcessorOuttechu42413Item;
 import net.mcreator.mkstech.item.PowerSupplyLightwarmGoldItem;
 import net.mcreator.mkstech.item.PccaseblackItem;
@@ -28,6 +29,7 @@ import net.mcreator.mkstech.item.MemoryHDD512gbItem;
 import net.mcreator.mkstech.item.LaptopoldclassicItem;
 import net.mcreator.mkstech.item.LaptopGamingItem;
 import net.mcreator.mkstech.item.HeadphonesItem;
+import net.mcreator.mkstech.item.CameraBlackItem;
 import net.mcreator.mkstech.MksTechMod;
 
 public class MksTechModItems {
@@ -52,6 +54,10 @@ public class MksTechModItems {
 	public static final RegistryObject<Item> P_CMDEU_4NMOVIE = block(MksTechModBlocks.P_CMDEU_4NMOVIE, MksTechModTabs.TAB_MKSTECHPCCOMPLECT);
 	public static final RegistryObject<Item> SMARTPHONECLASSICOFF = REGISTRY.register("smartphoneclassicoff", () -> new SmartphoneclassicoffItem());
 	public static final RegistryObject<Item> LAPTOP_GAMING = REGISTRY.register("laptop_gaming", () -> new LaptopGamingItem());
+	public static final RegistryObject<Item> TELEVISION_PLASMA = block(MksTechModBlocks.TELEVISION_PLASMA, MksTechModTabs.TAB_MKS_TECH);
+	public static final RegistryObject<Item> BOOMBOX = block(MksTechModBlocks.BOOMBOX, MksTechModTabs.TAB_MKS_TECH);
+	public static final RegistryObject<Item> CAMERA_BLACK = REGISTRY.register("camera_black", () -> new CameraBlackItem());
+	public static final RegistryObject<Item> SHOT_STAR_LIGHT_CAMERA = REGISTRY.register("shot_star_light_camera", () -> new ShotStarLightCameraItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

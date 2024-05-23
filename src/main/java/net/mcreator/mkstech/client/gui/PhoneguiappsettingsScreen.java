@@ -50,8 +50,8 @@ public class PhoneguiappsettingsScreen extends AbstractContainerScreen<Phoneguia
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("mks_tech:textures/screens/smartphonegui.png"));
-		this.blit(ms, this.leftPos + 0, this.topPos + 0, 0, 0, 150, 200, 150, 200);
+		RenderSystem.setShaderTexture(0, new ResourceLocation("mks_tech:textures/screens/smartphone_ui_bkgr.png"));
+		this.blit(ms, this.leftPos + -4, this.topPos + -20, 0, 0, 160, 240, 160, 240);
 
 		RenderSystem.disableBlend();
 	}
@@ -84,7 +84,7 @@ public class PhoneguiappsettingsScreen extends AbstractContainerScreen<Phoneguia
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		imagebutton_home_button = new ImageButton(this.leftPos + 63, this.topPos + 188, 26, 10, 0, 0, 10, new ResourceLocation("mks_tech:textures/screens/atlas/imagebutton_home_button.png"), 26, 20, e -> {
+		imagebutton_home_button = new ImageButton(this.leftPos + 55, this.topPos + 204, 44, 16, 0, 0, 16, new ResourceLocation("mks_tech:textures/screens/atlas/imagebutton_home_button.png"), 44, 32, e -> {
 			if (true) {
 				MksTechMod.PACKET_HANDLER.sendToServer(new PhoneguiappsettingsButtonMessage(0, x, y, z));
 				PhoneguiappsettingsButtonMessage.handleButtonAction(entity, 0, x, y, z);

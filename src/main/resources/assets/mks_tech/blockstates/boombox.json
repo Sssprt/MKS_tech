@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mks_tech:block/boombox"
+    },
+    "facing=east": {
+      "model": "mks_tech:block/boombox",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mks_tech:block/boombox",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mks_tech:block/boombox",
+      "y": 270
+    }
+  }
+}

@@ -55,8 +55,8 @@ public class PhoneguiappclockScreen extends AbstractContainerScreen<Phoneguiappc
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("mks_tech:textures/screens/smartphonegui.png"));
-		this.blit(ms, this.leftPos + 0, this.topPos + 0, 0, 0, 150, 200, 150, 200);
+		RenderSystem.setShaderTexture(0, new ResourceLocation("mks_tech:textures/screens/smartphone_ui_bkgr.png"));
+		this.blit(ms, this.leftPos + -4, this.topPos + -20, 0, 0, 160, 240, 160, 240);
 
 		RenderSystem.disableBlend();
 	}
@@ -79,7 +79,7 @@ public class PhoneguiappclockScreen extends AbstractContainerScreen<Phoneguiappc
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack,
 
-				PhoneguiZnachieniieProcedure.execute(world), 51, 16, -1);
+				PhoneguiZnachieniieProcedure.execute(world), 31, -8, -1);
 	}
 
 	@Override
@@ -92,7 +92,7 @@ public class PhoneguiappclockScreen extends AbstractContainerScreen<Phoneguiappc
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		button_day = new Button(this.leftPos + 23, this.topPos + 36, 40, 20, new TranslatableComponent("gui.mks_tech.phoneguiappclock.button_day"), e -> {
+		button_day = new Button(this.leftPos + 15, this.topPos + 4, 40, 20, new TranslatableComponent("gui.mks_tech.phoneguiappclock.button_day"), e -> {
 			if (true) {
 				MksTechMod.PACKET_HANDLER.sendToServer(new PhoneguiappclockButtonMessage(0, x, y, z));
 				PhoneguiappclockButtonMessage.handleButtonAction(entity, 0, x, y, z);
@@ -100,7 +100,7 @@ public class PhoneguiappclockScreen extends AbstractContainerScreen<Phoneguiappc
 		});
 		guistate.put("button:button_day", button_day);
 		this.addRenderableWidget(button_day);
-		button_night = new Button(this.leftPos + 63, this.topPos + 36, 51, 20, new TranslatableComponent("gui.mks_tech.phoneguiappclock.button_night"), e -> {
+		button_night = new Button(this.leftPos + 87, this.topPos + 4, 51, 20, new TranslatableComponent("gui.mks_tech.phoneguiappclock.button_night"), e -> {
 			if (true) {
 				MksTechMod.PACKET_HANDLER.sendToServer(new PhoneguiappclockButtonMessage(1, x, y, z));
 				PhoneguiappclockButtonMessage.handleButtonAction(entity, 1, x, y, z);
@@ -108,7 +108,7 @@ public class PhoneguiappclockScreen extends AbstractContainerScreen<Phoneguiappc
 		});
 		guistate.put("button:button_night", button_night);
 		this.addRenderableWidget(button_night);
-		imagebutton_home_button = new ImageButton(this.leftPos + 63, this.topPos + 188, 26, 10, 0, 0, 10, new ResourceLocation("mks_tech:textures/screens/atlas/imagebutton_home_button.png"), 26, 20, e -> {
+		imagebutton_home_button = new ImageButton(this.leftPos + 55, this.topPos + 204, 44, 16, 0, 0, 16, new ResourceLocation("mks_tech:textures/screens/atlas/imagebutton_home_button.png"), 44, 32, e -> {
 			if (true) {
 				MksTechMod.PACKET_HANDLER.sendToServer(new PhoneguiappclockButtonMessage(2, x, y, z));
 				PhoneguiappclockButtonMessage.handleButtonAction(entity, 2, x, y, z);
