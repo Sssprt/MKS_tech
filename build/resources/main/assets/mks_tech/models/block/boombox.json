@@ -1,0 +1,8 @@
+{
+  "parent": "mks_tech:custom/boombox",
+  "textures": {
+    "all": "mks_tech:blocks/boombox",
+    "particle": "mks_tech:blocks/boombox",
+    "0": "mks_tech:blocks/boombox"
+  }
+}

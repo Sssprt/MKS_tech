@@ -13,10 +13,10 @@
       {
         "type": "image",
         "data": {
-          "image": "smartphonegui.png",
+          "image": "smartphone_ui_bkgr.png",
           "use1Xscale": false,
-          "x": 138,
-          "y": 20
+          "x": 134,
+          "y": 0
         }
       },
       {
@@ -28,8 +28,8 @@
           "onClick": {
             "name": "PhoneguiYTopenscript"
           },
-          "x": 162,
-          "y": 40
+          "x": 150,
+          "y": 12
         }
       },
       {
@@ -41,8 +41,8 @@
           "onClick": {
             "name": "Phoneguimessengerappopenscript"
           },
-          "x": 198,
-          "y": 40
+          "x": 182,
+          "y": 12
         }
       },
       {
@@ -54,21 +54,21 @@
           "onClick": {
             "name": "Phoneguiopenappweatherscript"
           },
-          "x": 234,
-          "y": 40
+          "x": 214,
+          "y": 12
         }
       },
       {
         "type": "imagebutton",
         "data": {
           "name": "imagebutton_home_button",
-          "image": "home_button.png",
-          "hoveredImage": "home_button_hover.png",
+          "image": "smartphone_ui_button.png",
+          "hoveredImage": "smartphone_ui_button-hover.png",
           "onClick": {
             "name": "Phoneoffhomebutton"
           },
-          "x": 202,
-          "y": 208
+          "x": 194,
+          "y": 224
         }
       },
       {
@@ -80,8 +80,8 @@
           "onClick": {
             "name": "Phoneguiappmusicopenscript"
           },
-          "x": 162,
-          "y": 76
+          "x": 246,
+          "y": 12
         }
       },
       {
@@ -93,8 +93,8 @@
           "onClick": {
             "name": "Phoneguiopenappclock"
           },
-          "x": 198,
-          "y": 76
+          "x": 150,
+          "y": 44
         }
       },
       {
@@ -106,8 +106,8 @@
           "onClick": {
             "name": "Phoneguiopenappsettings"
           },
-          "x": 234,
-          "y": 76
+          "x": 182,
+          "y": 44
         }
       }
     ],

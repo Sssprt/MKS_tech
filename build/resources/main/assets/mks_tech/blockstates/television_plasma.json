@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mks_tech:block/television_plasma"
+    },
+    "facing=east": {
+      "model": "mks_tech:block/television_plasma",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mks_tech:block/television_plasma",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mks_tech:block/television_plasma",
+      "y": 270
+    }
+  }
+}

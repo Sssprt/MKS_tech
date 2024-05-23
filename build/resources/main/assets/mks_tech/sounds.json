@@ -1,0 +1,12 @@
+{
+  "camera_sound_shot": {
+    "category": "player",
+    "subtitle": "subtitles.camera_sound_shot",
+    "sounds": [
+      {
+        "name": "mks_tech:mixkit-camera-shutter-hard-click-1430",
+        "stream": false
+      }
+    ]
+  }
+}

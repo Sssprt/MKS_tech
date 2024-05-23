@@ -1,0 +1,7 @@
+{
+  "parent": "mks_tech:custom/shotstar5",
+  "textures": {
+    "0": "mks_tech:blocks/star_light1",
+    "particle": "mks_tech:items/star_light"
+  }
+}

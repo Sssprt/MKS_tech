@@ -1,7 +1,7 @@
 {
-  "parent": "mks_tech:custom/smartphone_classic_on",
+  "parent": "mks_tech:custom/smartphone_upd",
   "textures": {
-    "0": "mks_tech:blocks/smartphone_classic_on",
-    "particle": "mks_tech:items/smartphone_classic_on"
+    "0": "mks_tech:blocks/smartphone_upd_blue",
+    "particle": "mks_tech:items/smartphone_upd_blue"
   }
 }

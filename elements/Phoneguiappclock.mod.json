@@ -13,10 +13,10 @@
       {
         "type": "image",
         "data": {
-          "image": "smartphonegui.png",
+          "image": "smartphone_ui_bkgr.png",
           "use1Xscale": false,
-          "x": 138,
-          "y": 20
+          "x": 134,
+          "y": 0
         }
       },
       {
@@ -31,21 +31,21 @@
             "value": -1,
             "falpha": 0.0
           },
-          "x": 190,
-          "y": 36
+          "x": 170,
+          "y": 12
         }
       },
       {
         "type": "imagebutton",
         "data": {
           "name": "imagebutton_home_button",
-          "image": "home_button.png",
-          "hoveredImage": "home_button_hover.png",
+          "image": "smartphone_ui_button.png",
+          "hoveredImage": "smartphone_ui_button-hover.png",
           "onClick": {
             "name": "Phonehomebuttonscript"
           },
-          "x": 202,
-          "y": 208
+          "x": 194,
+          "y": 224
         }
       },
       {
@@ -58,8 +58,8 @@
           },
           "width": 40,
           "height": 20,
-          "x": 162,
-          "y": 56
+          "x": 154,
+          "y": 24
         }
       },
       {
@@ -72,8 +72,8 @@
           },
           "width": 51,
           "height": 20,
-          "x": 202,
-          "y": 56
+          "x": 226,
+          "y": 24
         }
       }
     ],

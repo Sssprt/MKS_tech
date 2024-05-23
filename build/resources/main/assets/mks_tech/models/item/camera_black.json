@@ -1,0 +1,7 @@
+{
+  "parent": "mks_tech:custom/camera",
+  "textures": {
+    "0": "mks_tech:blocks/camera_black",
+    "particle": "mks_tech:items/camera_black"
+  }
+}

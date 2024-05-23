@@ -3,8 +3,8 @@
   "_type": "item",
   "definition": {
     "renderType": 1,
-    "texture": "smartphone_classic_on",
-    "customModelName": "smartphone_classic_on:default",
+    "texture": "smartphone_upd_blue",
+    "customModelName": "smartphone_upd:default",
     "name": "Smartphone",
     "rarity": "COMMON",
     "creativeTab": {
