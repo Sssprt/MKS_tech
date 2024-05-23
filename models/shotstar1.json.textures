@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "star_light1"
+      },
+      "name": "default"
+    }
+  }
+}
