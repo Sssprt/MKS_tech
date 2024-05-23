@@ -46,8 +46,8 @@ public class PhoneguimusicScreen extends AbstractContainerScreen<PhoneguimusicMe
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.imageWidth = 150;
-		this.imageHeight = 200;
+		this.imageWidth = 180;
+		this.imageHeight = 350;
 	}
 
 	@Override
@@ -63,8 +63,8 @@ public class PhoneguimusicScreen extends AbstractContainerScreen<PhoneguimusicMe
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("mks_tech:textures/screens/smartphone_ui_bkgr.png"));
-		this.blit(ms, this.leftPos + -4, this.topPos + -20, 0, 0, 160, 240, 160, 240);
+		RenderSystem.setShaderTexture(0, new ResourceLocation("mks_tech:textures/screens/smartphone_ui_backgr.png"));
+		this.blit(ms, this.leftPos + 2, this.topPos + 23, 0, 0, 180, 300, 180, 300);
 
 		RenderSystem.disableBlend();
 	}
@@ -85,7 +85,7 @@ public class PhoneguimusicScreen extends AbstractContainerScreen<PhoneguimusicMe
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, new TranslatableComponent("gui.mks_tech.phoneguimusic.label_choose_music"), 43, -8, -1);
+		this.font.draw(poseStack, new TranslatableComponent("gui.mks_tech.phoneguimusic.label_choose_music"), 58, 67, -1);
 	}
 
 	@Override
@@ -98,7 +98,7 @@ public class PhoneguimusicScreen extends AbstractContainerScreen<PhoneguimusicMe
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		button_pigstep = new Button(this.leftPos + 7, this.topPos + 144, 61, 20, new TranslatableComponent("gui.mks_tech.phoneguimusic.button_pigstep"), e -> {
+		button_pigstep = new Button(this.leftPos + 22, this.topPos + 219, 61, 20, new TranslatableComponent("gui.mks_tech.phoneguimusic.button_pigstep"), e -> {
 			if (true) {
 				MksTechMod.PACKET_HANDLER.sendToServer(new PhoneguimusicButtonMessage(0, x, y, z));
 				PhoneguimusicButtonMessage.handleButtonAction(entity, 0, x, y, z);
@@ -106,7 +106,7 @@ public class PhoneguimusicScreen extends AbstractContainerScreen<PhoneguimusicMe
 		});
 		guistate.put("button:button_pigstep", button_pigstep);
 		this.addRenderableWidget(button_pigstep);
-		button_stop = new Button(this.leftPos + 99, this.topPos + 200, 46, 20, new TranslatableComponent("gui.mks_tech.phoneguimusic.button_stop"), e -> {
+		button_stop = new Button(this.leftPos + 114, this.topPos + 275, 46, 20, new TranslatableComponent("gui.mks_tech.phoneguimusic.button_stop"), e -> {
 			if (true) {
 				MksTechMod.PACKET_HANDLER.sendToServer(new PhoneguimusicButtonMessage(1, x, y, z));
 				PhoneguimusicButtonMessage.handleButtonAction(entity, 1, x, y, z);
@@ -114,7 +114,7 @@ public class PhoneguimusicScreen extends AbstractContainerScreen<PhoneguimusicMe
 		});
 		guistate.put("button:button_stop", button_stop);
 		this.addRenderableWidget(button_stop);
-		button_strad = new Button(this.leftPos + 7, this.topPos + 84, 51, 20, new TranslatableComponent("gui.mks_tech.phoneguimusic.button_strad"), e -> {
+		button_strad = new Button(this.leftPos + 22, this.topPos + 159, 51, 20, new TranslatableComponent("gui.mks_tech.phoneguimusic.button_strad"), e -> {
 			if (true) {
 				MksTechMod.PACKET_HANDLER.sendToServer(new PhoneguimusicButtonMessage(2, x, y, z));
 				PhoneguimusicButtonMessage.handleButtonAction(entity, 2, x, y, z);
@@ -122,7 +122,7 @@ public class PhoneguimusicScreen extends AbstractContainerScreen<PhoneguimusicMe
 		});
 		guistate.put("button:button_strad", button_strad);
 		this.addRenderableWidget(button_strad);
-		button_wait = new Button(this.leftPos + 7, this.topPos + 104, 46, 20, new TranslatableComponent("gui.mks_tech.phoneguimusic.button_wait"), e -> {
+		button_wait = new Button(this.leftPos + 22, this.topPos + 179, 46, 20, new TranslatableComponent("gui.mks_tech.phoneguimusic.button_wait"), e -> {
 			if (true) {
 				MksTechMod.PACKET_HANDLER.sendToServer(new PhoneguimusicButtonMessage(3, x, y, z));
 				PhoneguimusicButtonMessage.handleButtonAction(entity, 3, x, y, z);
@@ -130,7 +130,7 @@ public class PhoneguimusicScreen extends AbstractContainerScreen<PhoneguimusicMe
 		});
 		guistate.put("button:button_wait", button_wait);
 		this.addRenderableWidget(button_wait);
-		button_cat = new Button(this.leftPos + 7, this.topPos + 4, 40, 20, new TranslatableComponent("gui.mks_tech.phoneguimusic.button_cat"), e -> {
+		button_cat = new Button(this.leftPos + 22, this.topPos + 79, 40, 20, new TranslatableComponent("gui.mks_tech.phoneguimusic.button_cat"), e -> {
 			if (true) {
 				MksTechMod.PACKET_HANDLER.sendToServer(new PhoneguimusicButtonMessage(4, x, y, z));
 				PhoneguimusicButtonMessage.handleButtonAction(entity, 4, x, y, z);
@@ -138,7 +138,7 @@ public class PhoneguimusicScreen extends AbstractContainerScreen<PhoneguimusicMe
 		});
 		guistate.put("button:button_cat", button_cat);
 		this.addRenderableWidget(button_cat);
-		button_blocks = new Button(this.leftPos + 7, this.topPos + 24, 56, 20, new TranslatableComponent("gui.mks_tech.phoneguimusic.button_blocks"), e -> {
+		button_blocks = new Button(this.leftPos + 22, this.topPos + 99, 56, 20, new TranslatableComponent("gui.mks_tech.phoneguimusic.button_blocks"), e -> {
 			if (true) {
 				MksTechMod.PACKET_HANDLER.sendToServer(new PhoneguimusicButtonMessage(5, x, y, z));
 				PhoneguimusicButtonMessage.handleButtonAction(entity, 5, x, y, z);
@@ -146,7 +146,7 @@ public class PhoneguimusicScreen extends AbstractContainerScreen<PhoneguimusicMe
 		});
 		guistate.put("button:button_blocks", button_blocks);
 		this.addRenderableWidget(button_blocks);
-		button_mall = new Button(this.leftPos + 7, this.topPos + 64, 46, 20, new TranslatableComponent("gui.mks_tech.phoneguimusic.button_mall"), e -> {
+		button_mall = new Button(this.leftPos + 22, this.topPos + 139, 46, 20, new TranslatableComponent("gui.mks_tech.phoneguimusic.button_mall"), e -> {
 			if (true) {
 				MksTechMod.PACKET_HANDLER.sendToServer(new PhoneguimusicButtonMessage(6, x, y, z));
 				PhoneguimusicButtonMessage.handleButtonAction(entity, 6, x, y, z);
@@ -154,7 +154,7 @@ public class PhoneguimusicScreen extends AbstractContainerScreen<PhoneguimusicMe
 		});
 		guistate.put("button:button_mall", button_mall);
 		this.addRenderableWidget(button_mall);
-		button_far = new Button(this.leftPos + 7, this.topPos + 164, 40, 20, new TranslatableComponent("gui.mks_tech.phoneguimusic.button_far"), e -> {
+		button_far = new Button(this.leftPos + 22, this.topPos + 239, 40, 20, new TranslatableComponent("gui.mks_tech.phoneguimusic.button_far"), e -> {
 			if (true) {
 				MksTechMod.PACKET_HANDLER.sendToServer(new PhoneguimusicButtonMessage(7, x, y, z));
 				PhoneguimusicButtonMessage.handleButtonAction(entity, 7, x, y, z);
@@ -162,7 +162,7 @@ public class PhoneguimusicScreen extends AbstractContainerScreen<PhoneguimusicMe
 		});
 		guistate.put("button:button_far", button_far);
 		this.addRenderableWidget(button_far);
-		button_stal = new Button(this.leftPos + 7, this.topPos + 124, 46, 20, new TranslatableComponent("gui.mks_tech.phoneguimusic.button_stal"), e -> {
+		button_stal = new Button(this.leftPos + 22, this.topPos + 199, 46, 20, new TranslatableComponent("gui.mks_tech.phoneguimusic.button_stal"), e -> {
 			if (true) {
 				MksTechMod.PACKET_HANDLER.sendToServer(new PhoneguimusicButtonMessage(8, x, y, z));
 				PhoneguimusicButtonMessage.handleButtonAction(entity, 8, x, y, z);
@@ -170,7 +170,7 @@ public class PhoneguimusicScreen extends AbstractContainerScreen<PhoneguimusicMe
 		});
 		guistate.put("button:button_stal", button_stal);
 		this.addRenderableWidget(button_stal);
-		button_13 = new Button(this.leftPos + 7, this.topPos + 184, 35, 20, new TranslatableComponent("gui.mks_tech.phoneguimusic.button_13"), e -> {
+		button_13 = new Button(this.leftPos + 22, this.topPos + 259, 35, 20, new TranslatableComponent("gui.mks_tech.phoneguimusic.button_13"), e -> {
 			if (true) {
 				MksTechMod.PACKET_HANDLER.sendToServer(new PhoneguimusicButtonMessage(9, x, y, z));
 				PhoneguimusicButtonMessage.handleButtonAction(entity, 9, x, y, z);
@@ -178,7 +178,7 @@ public class PhoneguimusicScreen extends AbstractContainerScreen<PhoneguimusicMe
 		});
 		guistate.put("button:button_13", button_13);
 		this.addRenderableWidget(button_13);
-		button_11 = new Button(this.leftPos + 7, this.topPos + 44, 35, 20, new TranslatableComponent("gui.mks_tech.phoneguimusic.button_11"), e -> {
+		button_11 = new Button(this.leftPos + 22, this.topPos + 119, 35, 20, new TranslatableComponent("gui.mks_tech.phoneguimusic.button_11"), e -> {
 			if (true) {
 				MksTechMod.PACKET_HANDLER.sendToServer(new PhoneguimusicButtonMessage(10, x, y, z));
 				PhoneguimusicButtonMessage.handleButtonAction(entity, 10, x, y, z);
@@ -186,7 +186,7 @@ public class PhoneguimusicScreen extends AbstractContainerScreen<PhoneguimusicMe
 		});
 		guistate.put("button:button_11", button_11);
 		this.addRenderableWidget(button_11);
-		imagebutton_home_button = new ImageButton(this.leftPos + 55, this.topPos + 204, 44, 16, 0, 0, 16, new ResourceLocation("mks_tech:textures/screens/atlas/imagebutton_home_button.png"), 44, 32, e -> {
+		imagebutton_home_button = new ImageButton(this.leftPos + 66, this.topPos + 307, 50, 9, 0, 0, 9, new ResourceLocation("mks_tech:textures/screens/atlas/imagebutton_home_button.png"), 50, 18, e -> {
 			if (true) {
 				MksTechMod.PACKET_HANDLER.sendToServer(new PhoneguimusicButtonMessage(11, x, y, z));
 				PhoneguimusicButtonMessage.handleButtonAction(entity, 11, x, y, z);

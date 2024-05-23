@@ -36,8 +36,8 @@ public class PhoneguiYTScreen extends AbstractContainerScreen<PhoneguiYTMenu> {
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.imageWidth = 150;
-		this.imageHeight = 200;
+		this.imageWidth = 180;
+		this.imageHeight = 350;
 	}
 
 	@Override
@@ -53,8 +53,8 @@ public class PhoneguiYTScreen extends AbstractContainerScreen<PhoneguiYTMenu> {
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("mks_tech:textures/screens/smartphone_ui_bkgr.png"));
-		this.blit(ms, this.leftPos + -4, this.topPos + -20, 0, 0, 160, 240, 160, 240);
+		RenderSystem.setShaderTexture(0, new ResourceLocation("mks_tech:textures/screens/smartphone_ui_backgr.png"));
+		this.blit(ms, this.leftPos + 2, this.topPos + 23, 0, 0, 180, 300, 180, 300);
 
 		RenderSystem.disableBlend();
 	}
@@ -87,7 +87,7 @@ public class PhoneguiYTScreen extends AbstractContainerScreen<PhoneguiYTMenu> {
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		button_microfrog = new Button(this.leftPos + 7, this.topPos + -4, 72, 20, new TranslatableComponent("gui.mks_tech.phonegui_yt.button_microfrog"), e -> {
+		button_microfrog = new Button(this.leftPos + 22, this.topPos + 71, 72, 20, new TranslatableComponent("gui.mks_tech.phonegui_yt.button_microfrog"), e -> {
 			if (true) {
 				MksTechMod.PACKET_HANDLER.sendToServer(new PhoneguiYTButtonMessage(0, x, y, z));
 				PhoneguiYTButtonMessage.handleButtonAction(entity, 0, x, y, z);
@@ -95,7 +95,7 @@ public class PhoneguiYTScreen extends AbstractContainerScreen<PhoneguiYTMenu> {
 		});
 		guistate.put("button:button_microfrog", button_microfrog);
 		this.addRenderableWidget(button_microfrog);
-		imagebutton_home_button = new ImageButton(this.leftPos + 55, this.topPos + 204, 44, 16, 0, 0, 16, new ResourceLocation("mks_tech:textures/screens/atlas/imagebutton_home_button.png"), 44, 32, e -> {
+		imagebutton_home_button = new ImageButton(this.leftPos + 62, this.topPos + 311, 50, 9, 0, 0, 9, new ResourceLocation("mks_tech:textures/screens/atlas/imagebutton_home_button.png"), 50, 18, e -> {
 			if (true) {
 				MksTechMod.PACKET_HANDLER.sendToServer(new PhoneguiYTButtonMessage(1, x, y, z));
 				PhoneguiYTButtonMessage.handleButtonAction(entity, 1, x, y, z);

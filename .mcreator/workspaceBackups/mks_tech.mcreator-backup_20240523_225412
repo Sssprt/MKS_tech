@@ -1456,6 +1456,20 @@
           "src/main/java/net/mcreator/mkstech/item/CameraBlackItem.java"
         ]
       }
+    },
+    {
+      "name": "ShotStarLightCamera",
+      "type": "item",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shot_star_light_camera",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/item/ShotStarLightCameraItem.java",
+          "src/main/resources/assets/mks_tech/models/item/shot_star_light_camera.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1515,6 +1529,7 @@
       "gui.mks_tech.phoneguimusic.button_far": "Far",
       "gui.mks_tech.phoneguiappsettings.button_day": "Day",
       "block.mks_tech.television_plasma": "Television",
+      "item.mks_tech.shot_star_light_camera": "Shot Star Light Camera",
       "item.mks_tech.smartwatch_new_yellow": "Умные часы",
       "gui.mks_tech.phoneguimusic.button_stal": "Stal",
       "gui.mks_tech.phoneguimusic.button_11": "11",
@@ -1577,6 +1592,7 @@
       "gui.mks_tech.phoneguimusic.button_far": "Far",
       "gui.mks_tech.phoneguiappsettings.button_day": "Day",
       "block.mks_tech.television_plasma": "Television",
+      "item.mks_tech.shot_star_light_camera": "Shot Star Light Camera",
       "item.mks_tech.smartwatch_new_yellow": "Smart watch",
       "gui.mks_tech.phoneguimusic.button_stal": "Stal",
       "gui.mks_tech.phoneguimusic.button_11": "11",

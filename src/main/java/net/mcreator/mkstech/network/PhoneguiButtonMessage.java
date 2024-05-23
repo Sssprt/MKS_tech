@@ -70,19 +70,19 @@ public class PhoneguiButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			PhoneguiYTopenscriptProcedure.execute(world, x, y, z, entity);
+			PhoneoffhomebuttonProcedure.execute(entity);
 		}
 		if (buttonID == 1) {
 
-			PhoneguimessengerappopenscriptProcedure.execute(world, x, y, z, entity);
+			PhoneguiYTopenscriptProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 2) {
 
-			PhoneguiopenappweatherscriptProcedure.execute(world, x, y, z, entity);
+			PhoneguimessengerappopenscriptProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 3) {
 
-			PhoneoffhomebuttonProcedure.execute(entity);
+			PhoneguiopenappweatherscriptProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 4) {
 

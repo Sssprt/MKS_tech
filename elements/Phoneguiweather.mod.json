@@ -3,8 +3,8 @@
   "_type": "gui",
   "definition": {
     "type": 0,
-    "width": 150,
-    "height": 200,
+    "width": 180,
+    "height": 300,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
     "renderBgLayer": false,
@@ -13,10 +13,23 @@
       {
         "type": "image",
         "data": {
-          "image": "smartphone_ui_bkgr.png",
+          "image": "smartphone_ui_backgr.png",
           "use1Xscale": false,
-          "x": 134,
-          "y": 0
+          "x": 126,
+          "y": -32
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_home_button",
+          "image": "button-normal.png",
+          "hoveredImage": "button-pressed.png",
+          "onClick": {
+            "name": "Phonehomebuttonscript"
+          },
+          "x": 190,
+          "y": 252
         }
       },
       {
@@ -60,19 +73,6 @@
           },
           "x": 186,
           "y": 12
-        }
-      },
-      {
-        "type": "imagebutton",
-        "data": {
-          "name": "imagebutton_home_button",
-          "image": "smartphone_ui_button.png",
-          "hoveredImage": "smartphone_ui_button-hover.png",
-          "onClick": {
-            "name": "Phonehomebuttonscript"
-          },
-          "x": 194,
-          "y": 224
         }
       }
     ],

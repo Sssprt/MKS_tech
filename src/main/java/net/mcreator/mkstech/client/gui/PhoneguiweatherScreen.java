@@ -37,8 +37,8 @@ public class PhoneguiweatherScreen extends AbstractContainerScreen<Phoneguiweath
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.imageWidth = 150;
-		this.imageHeight = 200;
+		this.imageWidth = 180;
+		this.imageHeight = 300;
 	}
 
 	@Override
@@ -54,8 +54,8 @@ public class PhoneguiweatherScreen extends AbstractContainerScreen<Phoneguiweath
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("mks_tech:textures/screens/smartphone_ui_bkgr.png"));
-		this.blit(ms, this.leftPos + -4, this.topPos + -20, 0, 0, 160, 240, 160, 240);
+		RenderSystem.setShaderTexture(0, new ResourceLocation("mks_tech:textures/screens/smartphone_ui_backgr.png"));
+		this.blit(ms, this.leftPos + 2, this.topPos + -2, 0, 0, 180, 300, 180, 300);
 
 		RenderSystem.disableBlend();
 	}
@@ -76,7 +76,7 @@ public class PhoneguiweatherScreen extends AbstractContainerScreen<Phoneguiweath
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, new TranslatableComponent("gui.mks_tech.phoneguiweather.label_set_weather"), 47, -8, -1);
+		this.font.draw(poseStack, new TranslatableComponent("gui.mks_tech.phoneguiweather.label_set_weather"), 62, 42, -1);
 	}
 
 	@Override
@@ -89,7 +89,7 @@ public class PhoneguiweatherScreen extends AbstractContainerScreen<Phoneguiweath
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		button_clear = new Button(this.leftPos + 11, this.topPos + 4, 51, 20, new TranslatableComponent("gui.mks_tech.phoneguiweather.button_clear"), e -> {
+		button_clear = new Button(this.leftPos + 26, this.topPos + 54, 51, 20, new TranslatableComponent("gui.mks_tech.phoneguiweather.button_clear"), e -> {
 			if (true) {
 				MksTechMod.PACKET_HANDLER.sendToServer(new PhoneguiweatherButtonMessage(0, x, y, z));
 				PhoneguiweatherButtonMessage.handleButtonAction(entity, 0, x, y, z);
@@ -97,7 +97,7 @@ public class PhoneguiweatherScreen extends AbstractContainerScreen<Phoneguiweath
 		});
 		guistate.put("button:button_clear", button_clear);
 		this.addRenderableWidget(button_clear);
-		button_clear1 = new Button(this.leftPos + 87, this.topPos + 4, 51, 20, new TranslatableComponent("gui.mks_tech.phoneguiweather.button_clear1"), e -> {
+		button_clear1 = new Button(this.leftPos + 102, this.topPos + 54, 51, 20, new TranslatableComponent("gui.mks_tech.phoneguiweather.button_clear1"), e -> {
 			if (true) {
 				MksTechMod.PACKET_HANDLER.sendToServer(new PhoneguiweatherButtonMessage(1, x, y, z));
 				PhoneguiweatherButtonMessage.handleButtonAction(entity, 1, x, y, z);
@@ -105,7 +105,7 @@ public class PhoneguiweatherScreen extends AbstractContainerScreen<Phoneguiweath
 		});
 		guistate.put("button:button_clear1", button_clear1);
 		this.addRenderableWidget(button_clear1);
-		imagebutton_home_button = new ImageButton(this.leftPos + 55, this.topPos + 204, 44, 16, 0, 0, 16, new ResourceLocation("mks_tech:textures/screens/atlas/imagebutton_home_button.png"), 44, 32, e -> {
+		imagebutton_home_button = new ImageButton(this.leftPos + 66, this.topPos + 282, 50, 9, 0, 0, 9, new ResourceLocation("mks_tech:textures/screens/atlas/imagebutton_home_button.png"), 50, 18, e -> {
 			if (true) {
 				MksTechMod.PACKET_HANDLER.sendToServer(new PhoneguiweatherButtonMessage(2, x, y, z));
 				PhoneguiweatherButtonMessage.handleButtonAction(entity, 2, x, y, z);
