@@ -9,8 +9,8 @@
       "registry_name": "smartphoneclassicoff",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mkstech/item/SmartphoneclassicoffItem.java",
-          "src/main/resources/assets/mks_tech/models/item/smartphoneclassicoff.json"
+          "src/main/resources/assets/mks_tech/models/item/smartphoneclassicoff.json",
+          "src/main/java/net/mcreator/mkstech/item/SmartphoneclassicoffItem.java"
         ]
       }
     },
@@ -34,9 +34,9 @@
       "registry_name": "phonegui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mkstech/client/gui/PhoneguiScreen.java",
           "src/main/java/net/mcreator/mkstech/network/PhoneguiButtonMessage.java",
-          "src/main/java/net/mcreator/mkstech/world/inventory/PhoneguiMenu.java"
+          "src/main/java/net/mcreator/mkstech/world/inventory/PhoneguiMenu.java",
+          "src/main/java/net/mcreator/mkstech/client/gui/PhoneguiScreen.java"
         ]
       }
     },
@@ -118,9 +118,9 @@
       "registry_name": "phonegui_yt",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mkstech/network/PhoneguiYTButtonMessage.java",
+          "src/main/java/net/mcreator/mkstech/client/gui/PhoneguiYTScreen.java",
           "src/main/java/net/mcreator/mkstech/world/inventory/PhoneguiYTMenu.java",
-          "src/main/java/net/mcreator/mkstech/client/gui/PhoneguiYTScreen.java"
+          "src/main/java/net/mcreator/mkstech/network/PhoneguiYTButtonMessage.java"
         ]
       }
     },
@@ -187,8 +187,8 @@
       "registry_name": "phoneguimessengerapp",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mkstech/client/gui/PhoneguimessengerappScreen.java",
           "src/main/java/net/mcreator/mkstech/network/PhoneguimessengerappButtonMessage.java",
+          "src/main/java/net/mcreator/mkstech/client/gui/PhoneguimessengerappScreen.java",
           "src/main/java/net/mcreator/mkstech/world/inventory/PhoneguimessengerappMenu.java"
         ]
       }
@@ -314,8 +314,8 @@
       "registry_name": "laptop_gaming",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mkstech/item/LaptopGamingItem.java",
-          "src/main/resources/assets/mks_tech/models/item/laptop_gaming.json"
+          "src/main/resources/assets/mks_tech/models/item/laptop_gaming.json",
+          "src/main/java/net/mcreator/mkstech/item/LaptopGamingItem.java"
         ]
       }
     },
@@ -328,10 +328,10 @@
       "registry_name": "laptop_gaming_block_object",
       "metadata": {
         "files": [
+          "src/main/resources/assets/mks_tech/models/item/laptop_gaming_block_object.json",
           "src/main/java/net/mcreator/mkstech/block/LaptopGamingBlockObjectBlock.java",
-          "src/main/resources/assets/mks_tech/blockstates/laptop_gaming_block_object.json",
           "src/main/resources/assets/mks_tech/models/block/laptop_gaming_block_object.json",
-          "src/main/resources/assets/mks_tech/models/item/laptop_gaming_block_object.json"
+          "src/main/resources/assets/mks_tech/blockstates/laptop_gaming_block_object.json"
         ]
       }
     },
@@ -394,9 +394,9 @@
       "registry_name": "phoneguiweather",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mkstech/client/gui/PhoneguiweatherScreen.java",
+          "src/main/java/net/mcreator/mkstech/world/inventory/PhoneguiweatherMenu.java",
           "src/main/java/net/mcreator/mkstech/network/PhoneguiweatherButtonMessage.java",
-          "src/main/java/net/mcreator/mkstech/world/inventory/PhoneguiweatherMenu.java"
+          "src/main/java/net/mcreator/mkstech/client/gui/PhoneguiweatherScreen.java"
         ]
       }
     },
@@ -560,8 +560,8 @@
       "registry_name": "phoneguimusic",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mkstech/world/inventory/PhoneguimusicMenu.java",
           "src/main/java/net/mcreator/mkstech/network/PhoneguimusicButtonMessage.java",
+          "src/main/java/net/mcreator/mkstech/world/inventory/PhoneguimusicMenu.java",
           "src/main/java/net/mcreator/mkstech/client/gui/PhoneguimusicScreen.java"
         ]
       }
@@ -982,9 +982,9 @@
       "registry_name": "phoneguiappclock",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/mkstech/network/PhoneguiappclockButtonMessage.java",
           "src/main/java/net/mcreator/mkstech/client/gui/PhoneguiappclockScreen.java",
-          "src/main/java/net/mcreator/mkstech/world/inventory/PhoneguiappclockMenu.java",
-          "src/main/java/net/mcreator/mkstech/network/PhoneguiappclockButtonMessage.java"
+          "src/main/java/net/mcreator/mkstech/world/inventory/PhoneguiappclockMenu.java"
         ]
       }
     },
@@ -1070,9 +1070,9 @@
       "registry_name": "phoneguiappsettings",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mkstech/world/inventory/PhoneguiappsettingsMenu.java",
+          "src/main/java/net/mcreator/mkstech/network/PhoneguiappsettingsButtonMessage.java",
           "src/main/java/net/mcreator/mkstech/client/gui/PhoneguiappsettingsScreen.java",
-          "src/main/java/net/mcreator/mkstech/network/PhoneguiappsettingsButtonMessage.java"
+          "src/main/java/net/mcreator/mkstech/world/inventory/PhoneguiappsettingsMenu.java"
         ]
       }
     },
@@ -1126,37 +1126,6 @@
       }
     },
     {
-      "name": "LaptopGamingShiftSndPkm",
-      "type": "procedure",
-      "sortid": 62,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "laptop_gaming_shift_snd_pkm",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mkstech/procedures/LaptopGamingShiftSndPkmProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "Headphones",
       "type": "item",
       "sortid": 4,
@@ -1198,8 +1167,8 @@
       "registry_name": "smartwatch_old",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mkstech/item/SmartwatchOldItem.java",
-          "src/main/resources/assets/mks_tech/models/item/smartwatch_old.json"
+          "src/main/resources/assets/mks_tech/models/item/smartwatch_old.json",
+          "src/main/java/net/mcreator/mkstech/item/SmartwatchOldItem.java"
         ]
       }
     },
@@ -1212,8 +1181,8 @@
       "registry_name": "smartwatch_new_yellow",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mkstech/item/SmartwatchNewYellowItem.java",
-          "src/main/resources/assets/mks_tech/models/item/smartwatch_new_yellow.json"
+          "src/main/resources/assets/mks_tech/models/item/smartwatch_new_yellow.json",
+          "src/main/java/net/mcreator/mkstech/item/SmartwatchNewYellowItem.java"
         ]
       }
     },
@@ -1242,10 +1211,10 @@
       "registry_name": "gaming_monitor",
       "metadata": {
         "files": [
+          "src/main/resources/assets/mks_tech/models/block/gaming_monitor.json",
           "src/main/resources/assets/mks_tech/models/item/gaming_monitor.json",
-          "src/main/resources/assets/mks_tech/blockstates/gaming_monitor.json",
           "src/main/java/net/mcreator/mkstech/block/GamingMonitorBlock.java",
-          "src/main/resources/assets/mks_tech/models/block/gaming_monitor.json"
+          "src/main/resources/assets/mks_tech/blockstates/gaming_monitor.json"
         ]
       }
     },
@@ -1258,10 +1227,10 @@
       "registry_name": "robot_vacuum_cleaner",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mks_tech/blockstates/robot_vacuum_cleaner.json",
           "src/main/java/net/mcreator/mkstech/block/RobotVacuumCleanerBlock.java",
-          "src/main/resources/assets/mks_tech/models/item/robot_vacuum_cleaner.json",
-          "src/main/resources/assets/mks_tech/models/block/robot_vacuum_cleaner.json"
+          "src/main/resources/assets/mks_tech/models/block/robot_vacuum_cleaner.json",
+          "src/main/resources/assets/mks_tech/blockstates/robot_vacuum_cleaner.json",
+          "src/main/resources/assets/mks_tech/models/item/robot_vacuum_cleaner.json"
         ]
       }
     },
@@ -1274,8 +1243,8 @@
       "registry_name": "memory_hdd_512gb",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mkstech/item/MemoryHDD512gbItem.java",
-          "src/main/resources/assets/mks_tech/models/item/memory_hdd_512gb.json"
+          "src/main/resources/assets/mks_tech/models/item/memory_hdd_512gb.json",
+          "src/main/java/net/mcreator/mkstech/item/MemoryHDD512gbItem.java"
         ]
       }
     },
@@ -1302,8 +1271,8 @@
       "registry_name": "processor_outtechu_42413",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mks_tech/models/item/processor_outtechu_42413.json",
-          "src/main/java/net/mcreator/mkstech/item/ProcessorOuttechu42413Item.java"
+          "src/main/java/net/mcreator/mkstech/item/ProcessorOuttechu42413Item.java",
+          "src/main/resources/assets/mks_tech/models/item/processor_outtechu_42413.json"
         ]
       }
     },
@@ -1344,8 +1313,8 @@
       "registry_name": "pccaseblack",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mkstech/item/PccaseblackItem.java",
-          "src/main/resources/assets/mks_tech/models/item/pccaseblack.json"
+          "src/main/resources/assets/mks_tech/models/item/pccaseblack.json",
+          "src/main/java/net/mcreator/mkstech/item/PccaseblackItem.java"
         ]
       }
     },
@@ -1358,9 +1327,9 @@
       "registry_name": "p_cmdeu_4nmovie",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mks_tech/models/block/p_cmdeu_4nmovie.json",
-          "src/main/resources/assets/mks_tech/blockstates/p_cmdeu_4nmovie.json",
           "src/main/resources/assets/mks_tech/models/item/p_cmdeu_4nmovie.json",
+          "src/main/resources/assets/mks_tech/blockstates/p_cmdeu_4nmovie.json",
+          "src/main/resources/assets/mks_tech/models/block/p_cmdeu_4nmovie.json",
           "src/main/java/net/mcreator/mkstech/block/PCmdeu4nmovieBlock.java"
         ]
       }
@@ -1402,10 +1371,118 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "TelevisionPlasma",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "television_plasma",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/block/TelevisionPlasmaBlock.java",
+          "src/main/resources/assets/mks_tech/models/block/television_plasma.json",
+          "src/main/resources/assets/mks_tech/blockstates/television_plasma.json",
+          "src/main/resources/assets/mks_tech/models/item/television_plasma.json"
+        ]
+      }
+    },
+    {
+      "name": "Boombox",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boombox",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/block/BoomboxBlock.java",
+          "src/main/resources/assets/mks_tech/blockstates/boombox.json",
+          "src/main/resources/assets/mks_tech/models/block/boombox.json",
+          "src/main/resources/assets/mks_tech/models/item/boombox.json"
+        ]
+      }
+    },
+    {
+      "name": "CameraBlackPriNazhatiiPravoiKnopkoiMyshi",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "camera_black_pri_nazhatii_pravoi_knopkoi_myshi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/procedures/CameraBlackPriNazhatiiPravoiKnopkoiMyshiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CameraBlack",
+      "type": "item",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "camera_black",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mks_tech/models/item/camera_black.json",
+          "src/main/java/net/mcreator/mkstech/item/CameraBlackItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ShotStarLightCamera",
+      "type": "item",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shot_star_light_camera",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkstech/item/ShotStarLightCameraItem.java",
+          "src/main/resources/assets/mks_tech/models/item/shot_star_light_camera.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "camera_sound_shot",
+      "files": [
+        "mixkit-camera-shutter-hard-click-1430"
+      ],
+      "category": "player",
+      "subtitle": "camera_sound_shot"
+    }
+  ],
   "language_map": {
     "ru_ru": {
       "block.mks_tech.keyboard": "Клавиатура",
@@ -1434,6 +1511,7 @@
       "item.mks_tech.pccaseblack": "Корпус ПК",
       "gui.mks_tech.phoneguimusic.button_pigstep": "Pigstep",
       "advancements.wowsmartphone.descr": "Купить смартфон",
+      "subtitles.camera_sound_shot": "camera_sound_shot",
       "gui.mks_tech.phoneguimusic.button_clear": "Ясно",
       "gui.mks_tech.phoneguimusic.button_mall": "Mall",
       "gui.mks_tech.phoneguimessengerapp.button_open_chat_to_chat": "Open chat to chat",
@@ -1444,11 +1522,14 @@
       "item.mks_tech.laptopoldclassic": "Ноутбук Старый",
       "item.mks_tech.operative_memory_mde_16gb": "Оперативная память: §lMDE",
       "itemGroup.tabmkstechpccomplect": "MKS Tech: ПК компоненты",
+      "block.mks_tech.boombox": "Boombox",
       "item.mks_tech.smartphoneclassicon": "Смартфон",
       "gui.mks_tech.phonegui.testtextinterpole": "test text inter",
       "gui.mks_tech.phoneguimusic.button_blocks_c418": "Blocks - C418",
       "gui.mks_tech.phoneguimusic.button_far": "Far",
       "gui.mks_tech.phoneguiappsettings.button_day": "Day",
+      "block.mks_tech.television_plasma": "Television",
+      "item.mks_tech.shot_star_light_camera": "Shot Star Light Camera",
       "item.mks_tech.smartwatch_new_yellow": "Умные часы",
       "gui.mks_tech.phoneguimusic.button_stal": "Stal",
       "gui.mks_tech.phoneguimusic.button_11": "11",
@@ -1457,6 +1538,7 @@
       "block.mks_tech.laptop_gaming_block_object": "Игровой ноутбук",
       "gui.mks_tech.phoneguiappclock.button_day": "День",
       "item.mks_tech.smartphoneclassicoff": "Смартфон",
+      "item.mks_tech.camera_black": "Camera",
       "item.mks_tech.headphones": "Наушники",
       "gui.mks_tech.phoneguimusic.label_choose_music": "Выбр. муз.",
       "item.mks_tech.tabletclassic": "Планшет",
@@ -1492,6 +1574,7 @@
       "item.mks_tech.pccaseblack": "PC case",
       "gui.mks_tech.phoneguimusic.button_pigstep": "Pigstep",
       "advancements.wowsmartphone.descr": "Buy a smartphone",
+      "subtitles.camera_sound_shot": "camera_sound_shot",
       "gui.mks_tech.phoneguimusic.button_clear": "Clear",
       "gui.mks_tech.phoneguimusic.button_mall": "Mall",
       "gui.mks_tech.phoneguimessengerapp.button_open_chat_to_chat": "Open chat to chat",
@@ -1502,11 +1585,14 @@
       "item.mks_tech.laptopoldclassic": "Laptop old",
       "item.mks_tech.operative_memory_mde_16gb": "RAM: §lMDE",
       "itemGroup.tabmkstechpccomplect": "MKS Tech: PC components",
+      "block.mks_tech.boombox": "Boombox",
       "item.mks_tech.smartphoneclassicon": "Smartphone",
       "gui.mks_tech.phonegui.testtextinterpole": "test text inter",
       "gui.mks_tech.phoneguimusic.button_blocks_c418": "Blocks - C418",
       "gui.mks_tech.phoneguimusic.button_far": "Far",
       "gui.mks_tech.phoneguiappsettings.button_day": "Day",
+      "block.mks_tech.television_plasma": "Television",
+      "item.mks_tech.shot_star_light_camera": "Shot Star Light Camera",
       "item.mks_tech.smartwatch_new_yellow": "Smart watch",
       "gui.mks_tech.phoneguimusic.button_stal": "Stal",
       "gui.mks_tech.phoneguimusic.button_11": "11",
@@ -1515,6 +1601,7 @@
       "block.mks_tech.laptop_gaming_block_object": "Laptop Gaming",
       "gui.mks_tech.phoneguiappclock.button_day": "Day",
       "item.mks_tech.smartphoneclassicoff": "Smartphone",
+      "item.mks_tech.camera_black": "Camera",
       "item.mks_tech.headphones": "Headphones",
       "gui.mks_tech.phoneguimusic.label_choose_music": "Choose music",
       "item.mks_tech.tabletclassic": "Tablet",
