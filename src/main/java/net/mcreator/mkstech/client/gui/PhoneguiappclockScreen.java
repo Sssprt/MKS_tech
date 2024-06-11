@@ -56,7 +56,7 @@ public class PhoneguiappclockScreen extends AbstractContainerScreen<Phoneguiappc
 		RenderSystem.defaultBlendFunc();
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("mks_tech:textures/screens/smartphone_ui_backgr.png"));
-		this.blit(ms, this.leftPos + 2, this.topPos + 27, 0, 0, 180, 300, 180, 300);
+		this.blit(ms, this.leftPos + 2, this.topPos + 23, 0, 0, 180, 300, 180, 300);
 
 		RenderSystem.disableBlend();
 	}
@@ -108,7 +108,7 @@ public class PhoneguiappclockScreen extends AbstractContainerScreen<Phoneguiappc
 		});
 		guistate.put("button:button_night", button_night);
 		this.addRenderableWidget(button_night);
-		imagebutton_home_button = new ImageButton(this.leftPos + 66, this.topPos + 307, 50, 9, 0, 0, 9, new ResourceLocation("mks_tech:textures/screens/atlas/imagebutton_home_button.png"), 50, 18, e -> {
+		imagebutton_home_button = new ImageButton(this.leftPos + 66, this.topPos + 311, 50, 9, 0, 0, 9, new ResourceLocation("mks_tech:textures/screens/atlas/imagebutton_home_button.png"), 50, 18, e -> {
 			if (true) {
 				MksTechMod.PACKET_HANDLER.sendToServer(new PhoneguiappclockButtonMessage(2, x, y, z));
 				PhoneguiappclockButtonMessage.handleButtonAction(entity, 2, x, y, z);

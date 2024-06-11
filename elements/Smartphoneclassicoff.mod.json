@@ -3,8 +3,8 @@
   "_type": "item",
   "definition": {
     "renderType": 1,
-    "texture": "smartphone_upd_blue",
-    "customModelName": "smartphone_upd:default",
+    "texture": "smartphonemks",
+    "customModelName": "smartphone_mks:default",
     "name": "Smartphone",
     "rarity": "COMMON",
     "creativeTab": {
@@ -25,7 +25,8 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "Model: Classic"
+      "Model: Classic",
+      "Color: Blue"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

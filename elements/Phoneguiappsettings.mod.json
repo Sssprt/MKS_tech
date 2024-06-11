@@ -29,7 +29,37 @@
             "name": "Phonehomebuttonscript"
           },
           "x": 190,
-          "y": 252
+          "y": 256
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_to_display_the_gui_correctly",
+          "text": {
+            "fixedValue": "To display the GUI correctly, "
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 138,
+          "y": 8
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_set_gui_scale_to_3",
+          "text": {
+            "fixedValue": "set GUI scale to 3"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 138,
+          "y": 20
         }
       }
     ],

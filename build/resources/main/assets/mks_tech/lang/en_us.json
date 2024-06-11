@@ -28,6 +28,7 @@
   "subtitles.camera_sound_shot": "camera_sound_shot",
   "gui.mks_tech.phoneguimusic.button_clear": "Clear",
   "gui.mks_tech.phoneguimusic.button_mall": "Mall",
+  "gui.mks_tech.phoneguiappsettings.label_to_display_the_gui_correctly": "To display the GUI correctly, ",
   "gui.mks_tech.phoneguimessengerapp.button_open_chat_to_chat": "Open chat to chat",
   "gui.mks_tech.phoneguiweather.button_clear1": "Rain",
   "item.mks_tech.power_supply_lightwarm_gold": "Power supply: §lLightWarm",
@@ -37,6 +38,7 @@
   "item.mks_tech.operative_memory_mde_16gb": "RAM: §lMDE",
   "itemGroup.tabmkstechpccomplect": "MKS Tech: PC components",
   "block.mks_tech.boombox": "Boombox",
+  "gui.mks_tech.phonegui.label_to_display_the_gui_correctly_se": "To display the GUI correctly, ",
   "item.mks_tech.smartphoneclassicon": "Smartphone",
   "gui.mks_tech.phonegui.testtextinterpole": "test text inter",
   "gui.mks_tech.phoneguimusic.button_blocks_c418": "Blocks - C418",
@@ -58,6 +60,8 @@
   "item.mks_tech.tabletclassic": "Tablet",
   "gui.mks_tech.phoneguimusic.button_cat_c418": "Cat - C418",
   "gui.mks_tech.phoneguiweather.button_clear": "Clear",
+  "gui.mks_tech.phoneguiappsettings.label_set_gui_scale_to_3": "set GUI scale to 3",
   "itemGroup.tabmks_tech": "MKS Tech",
-  "item.mks_tech.smartwatch_old": "Smart watch"
+  "item.mks_tech.smartwatch_old": "Smart watch",
+  "gui.mks_tech.phonegui.label_set_the_display_size_to_3": "set GUI scale to 3"
 }

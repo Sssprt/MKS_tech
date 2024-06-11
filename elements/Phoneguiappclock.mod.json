@@ -16,7 +16,7 @@
           "image": "smartphone_ui_backgr.png",
           "use1Xscale": false,
           "x": 126,
-          "y": -28
+          "y": -32
         }
       },
       {
@@ -29,7 +29,7 @@
             "name": "Phonehomebuttonscript"
           },
           "x": 190,
-          "y": 252
+          "y": 256
         }
       },
       {

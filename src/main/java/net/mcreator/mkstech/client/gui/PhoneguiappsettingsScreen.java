@@ -5,6 +5,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.ImageButton;
@@ -72,6 +73,8 @@ public class PhoneguiappsettingsScreen extends AbstractContainerScreen<Phoneguia
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
+		this.font.draw(poseStack, new TranslatableComponent("gui.mks_tech.phoneguiappsettings.label_to_display_the_gui_correctly"), 14, 63, -1);
+		this.font.draw(poseStack, new TranslatableComponent("gui.mks_tech.phoneguiappsettings.label_set_gui_scale_to_3"), 14, 75, -1);
 	}
 
 	@Override
@@ -84,7 +87,7 @@ public class PhoneguiappsettingsScreen extends AbstractContainerScreen<Phoneguia
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		imagebutton_home_button = new ImageButton(this.leftPos + 66, this.topPos + 307, 50, 9, 0, 0, 9, new ResourceLocation("mks_tech:textures/screens/atlas/imagebutton_home_button.png"), 50, 18, e -> {
+		imagebutton_home_button = new ImageButton(this.leftPos + 66, this.topPos + 311, 50, 9, 0, 0, 9, new ResourceLocation("mks_tech:textures/screens/atlas/imagebutton_home_button.png"), 50, 18, e -> {
 			if (true) {
 				MksTechMod.PACKET_HANDLER.sendToServer(new PhoneguiappsettingsButtonMessage(0, x, y, z));
 				PhoneguiappsettingsButtonMessage.handleButtonAction(entity, 0, x, y, z);
